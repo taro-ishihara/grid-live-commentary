@@ -1,9 +1,11 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Timeline } from './components/Timeline.tsx'
-import { Sidebar } from './components/Sidebar.tsx'
-import { Datalist } from './components/Datalist.tsx'
+import { Timeline } from './components/timeline/Timeline'
+import { Leftbar } from './components/Leftbar'
+import { Rightbar } from './components/Rightbar'
+import { ArrowsRightLeftIcon } from '@heroicons/react/20/solid'
+// import { IconButton } from '@material-tailwind/react'
 
 const user = {
   name: 'Tom Cook',
@@ -211,17 +213,37 @@ export default function App() {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow">
-          <div className="px-4 py-2 mb-0.5">
-            <h1 className="text-xl font-bold tracking-tight text-gray-900">
+        <header className="bg-white shadow border-b-2 border-slate-500">
+          <div className="px-4 py-2 flex justify-between">
+            <h1 className="text-xl font-bold tracking-tight text-gray-700 flex items-center">
               Live Dashboard
+            </h1>
+            <div className="flex">
+              <div className="h-8 w-12 text-xl text-slate-800 rounded-full border border-slate-500 flex items-center justify-center">
+                1
+              </div>
+              <div className="bg-slate-200 shadow shadow-slate-500 rounded mx-4 w-56 flex justify-center items-center">
+                FNATIC
+              </div>
+              <button className="bg-slate-800 middle none center px-1.5 my-0.5 flex items-center justify-center rounded-lg transition-all hover:opacity-75 focus:ring-1 focus:ring-violet-300 active:opacity-[0.85]">
+                <ArrowsRightLeftIcon className="h-4 w-4 text-white" />
+              </button>
+              <div className="bg-slate-200 shadow shadow-slate-500 rounded mx-4 w-56 flex justify-center items-center">
+                ZETA
+              </div>
+              <div className="h-8 w-12 text-xl text-slate-800 rounded-full border border-slate-500 flex items-center justify-center">
+                0
+              </div>
+            </div>
+            <h1 className="text-l font-bold text-gray-700 flex items-center">
+              Tournament Name Here
             </h1>
           </div>
         </header>
         <main>
-          <div className="flex mx-auto bg-neutral-100">
+          <div className="flex mx-auto bg-white">
             {/* Your content */}
-            <Sidebar />
+            <Leftbar />
             <div className="w-full">
               {/* right contents field */}
               <div className="flex justify-end">
@@ -231,9 +253,9 @@ export default function App() {
                     src="https://gist.githubusercontent.com/pigeonflight/80cb4f51e9bd538b82b3895ad60a38d0/raw/7d4726abfcce7ad4d23763e6a8c942077d603789/video-placeholder.svg"
                   ></img>
                 </div>
-                <Datalist />
+                <Rightbar />
               </div>
-              <div className="min-w-[1140px]">
+              <div>
                 <Timeline />
               </div>
             </div>
