@@ -1,12 +1,9 @@
 import { useState } from 'react'
 import { Tab, Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
+import { classNames } from '../utilities/class-names'
 
-function classNames(...classes: any) {
-  return classes.filter(Boolean).join(' ')
-}
-
-export default function Rightbar() {
+export default function DataPane() {
   let [categories] = useState({
     'Raw Events': [
       {
@@ -189,4 +186,4 @@ export default function Rightbar() {
   )
 }
 
-export { Rightbar }
+export { DataPane }

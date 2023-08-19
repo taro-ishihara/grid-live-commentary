@@ -1,3 +1,6 @@
+import { useEvents } from '../../contexts/EventsContext'
+import { Background } from './Background'
+import { Scale } from './Scale'
 import './scroll.css'
 
 type Event = {
@@ -21,6 +24,9 @@ type Timeline = {
 }
 
 const Timeline = () => {
+  const eventsl = useEvents()
+  console.log(eventsl)
+
   const events: Event[] = [
     {
       actor: '1',
@@ -198,11 +204,6 @@ const Timeline = () => {
     ))
   }
 
-  const createBackgrounds = (players: Player[], team: string) => {
-    const teamPlayers = players.filter((player) => player.team === team)
-    return teamPlayers.map(() => <div className="h-6"></div>)
-  }
-
   const getTeamPlayers = (players: Player[], team: string) => {
     const teamPlayers = players.filter((player) => player.team === team)
     return teamPlayers
@@ -234,12 +235,6 @@ const Timeline = () => {
     ))
   }
 
-  const createScale = () => {
-    return ['0:00', '0:10', '0:20', '0:30', '0:40', '0:50'].map((time) => {
-      return <div className="pl-2 pb-0.5 flex flex-col justify-end">{time}</div>
-    })
-  }
-
   return (
     <div className="flex min-w-[980px] bg-neutral-100">
       <div className=" bg-slate-800">
@@ -250,25 +245,14 @@ const Timeline = () => {
           {createPlayerLabels(players, 'tr')}
         </div>
       </div>
-      <div className="relative w-full pb-5 mr-2">
+      <div className="relative w-full pb-3 mr-2">
         {/* gray box */}
         <div className="absolute w-1/2 h-full bg-gray-500 opacity-50 z-30"></div>
         {/* time scale */}
-        <div className="absolute w-full h-full z-10">
-          <div className="flex overflow-hidden h-full">
-            <div className="w-full scroll">
-              <div className="absolute w-full h-full grid grid-cols-6 divide-x divide-slate-500 divide-dashed border-x border-slate-700 text-xs">
-                {createScale()}
-              </div>
-              <div className="translate-x-full h-full grid grid-cols-6 divide-x divide-slate-500 divide-dashed text-xs">
-                {createScale()}
-              </div>
-            </div>
-          </div>
-        </div>
+        <Scale />
         {/* event items */}
         <div className="absolute w-full h-full z-20">
-          <div className="relative overflow-hidden mt-2 h-full">
+          <div className="relative overflow-hidden pt-2 h-full">
             <div className="scroll">
               <div className="border-y border-transparent">
                 {createEvents('ct')}
@@ -280,14 +264,7 @@ const Timeline = () => {
           </div>
         </div>
         {/* background */}
-        <div className="mt-2">
-          <div className="bg-indigo-100 divide-y divide-slate-400 border border-l-0 box-border border-slate-500">
-            {createBackgrounds(players, 'ct')}
-          </div>
-          <div className="mt-2 bg-rose-100 divide-y divide-slate-400 border border-l-0 box-border border-slate-500 ">
-            {createBackgrounds(players, 'tr')}
-          </div>
-        </div>
+        <Background numPlayers={5} reverse={false} />
       </div>
     </div>
   )

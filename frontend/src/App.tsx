@@ -2,9 +2,10 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Timeline } from './components/timeline/Timeline'
-import { Leftbar } from './components/Leftbar'
-import { Rightbar } from './components/Rightbar'
+import { SideBar } from './components/SideBar'
+import { DataPane } from './components/DataPane'
 import { ArrowsRightLeftIcon } from '@heroicons/react/20/solid'
+import { useWebSocketServer } from './hooks/useWebsocketServer'
 // import { IconButton } from '@material-tailwind/react'
 
 const user = {
@@ -243,17 +244,17 @@ export default function App() {
         <main>
           <div className="flex mx-auto bg-white">
             {/* Your content */}
-            <Leftbar />
+            <SideBar />
             <div className="w-full">
               {/* right contents field */}
               <div className="flex justify-end">
                 <div className="flex justify-center w-full">
                   <img
-                    className="w-full p-2"
+                    className="w-full p-2 "
                     src="https://gist.githubusercontent.com/pigeonflight/80cb4f51e9bd538b82b3895ad60a38d0/raw/7d4726abfcce7ad4d23763e6a8c942077d603789/video-placeholder.svg"
                   ></img>
                 </div>
-                <Rightbar />
+                <DataPane />
               </div>
               <div>
                 <Timeline />
