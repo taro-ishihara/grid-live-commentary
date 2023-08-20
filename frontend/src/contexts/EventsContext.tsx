@@ -5,11 +5,13 @@ import {
   useState,
   useEffect,
 } from 'react'
+import { State } from '../../types/state'
 
 const EventsContext = createContext<any>('')
 
 const EventsProvider = ({ children }: { children: ReactNode }) => {
   const [events, setEvents] = useState<any[]>([])
+  const [state, setState] = useState<State>()
 
   useEffect(() => {
     const ws = new WebSocket('ws://localhost:8080/2364966')
@@ -18,6 +20,8 @@ const EventsProvider = ({ children }: { children: ReactNode }) => {
     }
     ws.onmessage = (event) => {
       const response = JSON.parse(event.data)
+      const state = response.events[response.events.length - 1].seriesState
+      state ? setState(state) : null
       setEvents((prevEvents) => [...prevEvents, response])
     }
     ws.onclose = () => {
@@ -29,7 +33,9 @@ const EventsProvider = ({ children }: { children: ReactNode }) => {
   }, [])
 
   return (
-    <EventsContext.Provider value={events}>{children}</EventsContext.Provider>
+    <EventsContext.Provider value={{ events: events, state: state }}>
+      {children}
+    </EventsContext.Provider>
   )
 }
 

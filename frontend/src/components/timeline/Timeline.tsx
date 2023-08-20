@@ -1,3 +1,4 @@
+import { State } from '../../../types/state'
 import { useEvents } from '../../contexts/EventsContext'
 import { Background } from './Background'
 import { Scale } from './Scale'
@@ -24,8 +25,7 @@ type Timeline = {
 }
 
 const Timeline = () => {
-  const eventsl = useEvents()
-  console.log(eventsl)
+  const state = useEvents().state
 
   const events: Event[] = [
     {
@@ -167,8 +167,6 @@ const Timeline = () => {
     },
   ]
 
-  const uniqueTeams = Array.from(new Set(players.map((player) => player.team)))
-
   const calculateEventStyle = (event: Event) => {
     const now = new Date('2023-08-14T12:00:00') // Date.now()
     const totalMilliseconds = 60_000
@@ -195,11 +193,17 @@ const Timeline = () => {
     }
   }
 
-  const createPlayerLabels = (players: Player[], team: string) => {
-    const teamPlayers = players.filter((player) => player.team === team)
-    return teamPlayers.map((player) => (
-      <div className="h-6 pt-1 px-2 text-white text-xs truncate">
-        {player.name}
+  const createPlayerLabels = (state: State) => {
+    if (!state) {
+      return
+    }
+    return state.teams.map((team) => (
+      <div className="w-20 my-2 bg-indigo-800 border-y border-transparent">
+        {team.players.map((player) => (
+          <div className="h-6 pt-1 px-2 text-white text-xs truncate">
+            {player.name}
+          </div>
+        ))}
       </div>
     ))
   }
@@ -237,14 +241,7 @@ const Timeline = () => {
 
   return (
     <div className="flex min-w-[980px] bg-neutral-100">
-      <div className=" bg-slate-800">
-        <div className="w-20 my-2 bg-indigo-800 border-y border-transparent">
-          {createPlayerLabels(players, 'ct')}
-        </div>
-        <div className="w-20 bg-rose-800 border-y border-transparent">
-          {createPlayerLabels(players, 'tr')}
-        </div>
-      </div>
+      <div className=" bg-slate-800">{createPlayerLabels(state)}</div>
       <div className="relative w-full pb-3 mr-2">
         {/* gray box */}
         <div className="absolute w-1/2 h-full bg-gray-500 opacity-50 z-30"></div>

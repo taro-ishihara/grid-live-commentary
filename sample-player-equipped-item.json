@@ -1,0 +1,3852 @@
+{
+  "id": "6dfabc53-9d4f-456b-aed4-2870ae4f29c9",
+  "occurredAt": "2022-10-29T10:38:14.681Z",
+  "correlationId": "cf9e1291-7d38-448b-a7bc-318077121b12",
+  "publishedAt": "1970-01-01T00:00:00.000Z",
+  "seriesId": "2364966",
+  "sequenceNumber": 3182,
+  "sessionSequenceNumber": 3182,
+  "events": [
+    {
+      "id": "11f5daa5-9519-4964-8efd-947512be683a",
+      "includesFullState": true,
+      "type": "player-equipped-item",
+      "actor": {
+        "type": "player",
+        "id": "76561198047544485",
+        "stateDelta": {
+          "id": "76561198047544485",
+          "series": { "id": "76561198047544485" },
+          "game": {
+            "id": "76561198047544485",
+            "items": [{ "id": "item_smoke_of_deceit", "equipped": true }]
+          }
+        },
+        "state": {
+          "id": "76561198047544485",
+          "teamId": "1546",
+          "side": "radiant",
+          "series": {
+            "id": "76561198047544485",
+            "statePath": [{ "id": "76561198047544485" }],
+            "name": "Puppey",
+            "participationStatus": "active",
+            "kills": 3,
+            "killAssistsReceived": 7,
+            "killAssistsGiven": 25,
+            "killAssistsReceivedFromPlayer": [
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                "playerId": "76561198087883707",
+                "killAssistsReceived": 3
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                "playerId": "76561198082035378",
+                "killAssistsReceived": 2
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                "playerId": "76561198046990903",
+                "killAssistsReceived": 1
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                "playerId": "76561198071296043",
+                "killAssistsReceived": 1
+              }
+            ],
+            "weaponKills": {},
+            "teamkills": 0,
+            "teamkillAssistsReceived": 0,
+            "teamkillAssistsGiven": 0,
+            "teamkillAssistsReceivedFromPlayer": [],
+            "weaponTeamkills": {},
+            "selfkills": 0,
+            "deaths": 12,
+            "structuresDestroyed": 1,
+            "structuresCaptured": 0,
+            "objectives": [
+              {
+                "id": "increaseLevel",
+                "statePath": [{ "id": "increaseLevel" }],
+                "type": "increaseLevel",
+                "completionCount": 23
+              },
+              {
+                "id": "destroyTower",
+                "statePath": [{ "id": "destroyTower" }],
+                "type": "destroyTower",
+                "completionCount": 1
+              }
+            ],
+            "multikills": []
+          },
+          "game": {
+            "id": "76561198047544485",
+            "statePath": [{ "id": "76561198047544485" }],
+            "name": "Puppey",
+            "character": { "name": "silencer", "id": "silencer" },
+            "participationStatus": "active",
+            "money": 10,
+            "inventoryValue": 325,
+            "netWorth": 335,
+            "kills": 0,
+            "killAssistsReceived": 0,
+            "killAssistsGiven": 0,
+            "killAssistsReceivedFromPlayer": [],
+            "weaponKills": {},
+            "multikills": [],
+            "teamkills": 0,
+            "teamkillAssistsReceived": 0,
+            "teamkillAssistsGiven": 0,
+            "teamkillAssistsReceivedFromPlayer": [],
+            "weaponTeamkills": {},
+            "selfkills": 0,
+            "deaths": 0,
+            "structuresDestroyed": 0,
+            "structuresCaptured": 0,
+            "items": [
+              {
+                "id": "item_enchanted_mango",
+                "statePath": [{ "id": "item_enchanted_mango" }],
+                "equipped": true,
+                "stashed": false
+              },
+              {
+                "id": "item_tango",
+                "statePath": [{ "id": "item_tango" }],
+                "equipped": true,
+                "stashed": false
+              },
+              {
+                "id": "item_faerie_fire",
+                "statePath": [{ "id": "item_faerie_fire" }],
+                "equipped": true,
+                "stashed": false
+              },
+              {
+                "id": "item_branches",
+                "statePath": [{ "id": "item_branches" }],
+                "equipped": true,
+                "stashed": false
+              },
+              {
+                "id": "item_smoke_of_deceit",
+                "statePath": [{ "id": "item_smoke_of_deceit" }],
+                "equipped": true,
+                "stashed": false
+              }
+            ],
+            "objectives": [],
+            "abilities": [],
+            "position": { "x": -6700.0, "y": -6700.0 },
+            "alive": true,
+            "currentHealth": 600,
+            "experiencePoints": 0,
+            "maxHealth": 600
+          },
+          "name": "Puppey"
+        }
+      },
+      "action": "equipped",
+      "target": {
+        "type": "item",
+        "id": "item_smoke_of_deceit",
+        "stateDelta": { "id": "item_smoke_of_deceit", "equipped": true },
+        "state": {
+          "id": "item_smoke_of_deceit",
+          "statePath": [{ "id": "item_smoke_of_deceit" }],
+          "equipped": true,
+          "stashed": false
+        }
+      },
+      "seriesStateDelta": {
+        "id": "2364966",
+        "games": [
+          {
+            "id": "a17abaaf-7716-4f20-8b97-a16edcf1f739",
+            "teams": [
+              {
+                "id": "1546",
+                "players": [
+                  {
+                    "id": "76561198047544485",
+                    "items": [
+                      { "id": "item_smoke_of_deceit", "equipped": true }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "seriesState": {
+        "id": "2364966",
+        "title": { "nameShortened": "dota" },
+        "format": "best-of-3",
+        "started": true,
+        "finished": false,
+        "valid": true,
+        "teams": [
+          {
+            "id": "450",
+            "statePath": [{ "id": "450" }],
+            "name": "Secret",
+            "score": 1,
+            "won": false,
+            "kills": 47,
+            "killAssistsReceived": 139,
+            "killAssistsGiven": 139,
+            "killAssistsReceivedFromPlayer": [
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                "playerId": "76561198046964005",
+                "killAssistsReceived": 30
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                "playerId": "76561198055052004",
+                "killAssistsReceived": 15
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                "playerId": "76561197970632344",
+                "killAssistsReceived": 35
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                "playerId": "76561198064001473",
+                "killAssistsReceived": 35
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                "playerId": "76561198060324070",
+                "killAssistsReceived": 24
+              }
+            ],
+            "weaponKills": {},
+            "multikills": [
+              { "id": "multikill-2", "numberOfKills": 2, "count": 6 }
+            ],
+            "teamkills": 0,
+            "teamkillAssistsReceived": 0,
+            "teamkillAssistsGiven": 0,
+            "teamkillAssistsReceivedFromPlayer": [],
+            "weaponTeamkills": {},
+            "selfkills": 0,
+            "deaths": 35,
+            "structuresDestroyed": 15,
+            "structuresCaptured": 1,
+            "objectives": [
+              {
+                "id": "increaseLevel",
+                "statePath": [{ "id": "increaseLevel" }],
+                "type": "increaseLevel",
+                "completionCount": 139
+              },
+              {
+                "id": "destroyTower",
+                "statePath": [{ "id": "destroyTower" }],
+                "type": "destroyTower",
+                "completionCount": 9
+              },
+              {
+                "id": "slayRoshan",
+                "statePath": [{ "id": "slayRoshan" }],
+                "type": "slayRoshan",
+                "completionCount": 4
+              },
+              {
+                "id": "destroyBarracksRange",
+                "statePath": [{ "id": "destroyBarracksRange" }],
+                "type": "destroyBarracksRange",
+                "completionCount": 3
+              },
+              {
+                "id": "destroyBarracksMelee",
+                "statePath": [{ "id": "destroyBarracksMelee" }],
+                "type": "destroyBarracksMelee",
+                "completionCount": 2
+              },
+              {
+                "id": "destroyAncient",
+                "statePath": [{ "id": "destroyAncient" }],
+                "type": "destroyAncient",
+                "completionCount": 1
+              }
+            ],
+            "players": [
+              {
+                "id": "76561197970632344",
+                "statePath": [{ "id": "76561197970632344" }],
+                "name": "Sneyking",
+                "participationStatus": "active",
+                "kills": 5,
+                "killAssistsReceived": 15,
+                "killAssistsGiven": 35,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                    "playerId": "76561198060324070",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                    "playerId": "76561198064001473",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                    "playerId": "76561198046964005",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                    "playerId": "76561198055052004",
+                    "killAssistsReceived": 3
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 9,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 1,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 27
+                  }
+                ],
+                "multikills": []
+              },
+              {
+                "id": "76561198060324070",
+                "statePath": [{ "id": "76561198060324070" }],
+                "name": "skiter",
+                "participationStatus": "active",
+                "kills": 14,
+                "killAssistsReceived": 44,
+                "killAssistsGiven": 24,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                    "playerId": "76561197970632344",
+                    "killAssistsReceived": 13
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                    "playerId": "76561198055052004",
+                    "killAssistsReceived": 8
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                    "playerId": "76561198064001473",
+                    "killAssistsReceived": 12
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                    "playerId": "76561198046964005",
+                    "killAssistsReceived": 11
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 0,
+                "structuresDestroyed": 8,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 28
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 4
+                  },
+                  {
+                    "id": "slayRoshan",
+                    "statePath": [{ "id": "slayRoshan" }],
+                    "type": "slayRoshan",
+                    "completionCount": 2
+                  },
+                  {
+                    "id": "destroyBarracksMelee",
+                    "statePath": [{ "id": "destroyBarracksMelee" }],
+                    "type": "destroyBarracksMelee",
+                    "completionCount": 2
+                  },
+                  {
+                    "id": "destroyBarracksRange",
+                    "statePath": [{ "id": "destroyBarracksRange" }],
+                    "type": "destroyBarracksRange",
+                    "completionCount": 1
+                  },
+                  {
+                    "id": "destroyAncient",
+                    "statePath": [{ "id": "destroyAncient" }],
+                    "type": "destroyAncient",
+                    "completionCount": 1
+                  }
+                ],
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 2 }
+                ]
+              },
+              {
+                "id": "76561198055052004",
+                "statePath": [{ "id": "76561198055052004" }],
+                "name": "Nine",
+                "participationStatus": "active",
+                "kills": 19,
+                "killAssistsReceived": 60,
+                "killAssistsGiven": 15,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                    "playerId": "76561197970632344",
+                    "killAssistsReceived": 17
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                    "playerId": "76561198064001473",
+                    "killAssistsReceived": 15
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                    "playerId": "76561198060324070",
+                    "killAssistsReceived": 14
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                    "playerId": "76561198046964005",
+                    "killAssistsReceived": 14
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 7,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 29
+                  },
+                  {
+                    "id": "slayRoshan",
+                    "statePath": [{ "id": "slayRoshan" }],
+                    "type": "slayRoshan",
+                    "completionCount": 2
+                  }
+                ],
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 4 }
+                ]
+              },
+              {
+                "id": "76561198046964005",
+                "statePath": [{ "id": "76561198046964005" }],
+                "name": "33",
+                "participationStatus": "active",
+                "kills": 5,
+                "killAssistsReceived": 14,
+                "killAssistsGiven": 30,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                    "playerId": "76561197970632344",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                    "playerId": "76561198060324070",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                    "playerId": "76561198055052004",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                    "playerId": "76561198064001473",
+                    "killAssistsReceived": 4
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 8,
+                "structuresDestroyed": 2,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 28
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 2
+                  }
+                ],
+                "multikills": []
+              },
+              {
+                "id": "76561198064001473",
+                "statePath": [{ "id": "76561198064001473" }],
+                "name": "Saksa",
+                "participationStatus": "active",
+                "kills": 4,
+                "killAssistsReceived": 6,
+                "killAssistsGiven": 35,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                    "playerId": "76561198046964005",
+                    "killAssistsReceived": 1
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                    "playerId": "76561198055052004",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                    "playerId": "76561198060324070",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                    "playerId": "76561197970632344",
+                    "killAssistsReceived": 1
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 11,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 27
+                  }
+                ],
+                "multikills": []
+              }
+            ]
+          },
+          {
+            "id": "1546",
+            "statePath": [{ "id": "1546" }],
+            "name": "Tundra Esports",
+            "score": 0,
+            "won": false,
+            "kills": 35,
+            "killAssistsReceived": 89,
+            "killAssistsGiven": 89,
+            "killAssistsReceivedFromPlayer": [
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                "playerId": "76561198071296043",
+                "killAssistsReceived": 19
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                "playerId": "76561198087883707",
+                "killAssistsReceived": 11
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                "playerId": "76561198047544485",
+                "killAssistsReceived": 25
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                "playerId": "76561198046990903",
+                "killAssistsReceived": 19
+              },
+              {
+                "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                "playerId": "76561198082035378",
+                "killAssistsReceived": 15
+              }
+            ],
+            "weaponKills": {},
+            "multikills": [
+              { "id": "multikill-2", "numberOfKills": 2, "count": 5 },
+              { "id": "multikill-3", "numberOfKills": 3, "count": 1 }
+            ],
+            "teamkills": 0,
+            "teamkillAssistsReceived": 0,
+            "teamkillAssistsGiven": 0,
+            "teamkillAssistsReceivedFromPlayer": [],
+            "weaponTeamkills": {},
+            "selfkills": 0,
+            "deaths": 47,
+            "structuresDestroyed": 6,
+            "structuresCaptured": 0,
+            "objectives": [
+              {
+                "id": "increaseLevel",
+                "statePath": [{ "id": "increaseLevel" }],
+                "type": "increaseLevel",
+                "completionCount": 126
+              },
+              {
+                "id": "destroyTower",
+                "statePath": [{ "id": "destroyTower" }],
+                "type": "destroyTower",
+                "completionCount": 6
+              },
+              {
+                "id": "slayRoshan",
+                "statePath": [{ "id": "slayRoshan" }],
+                "type": "slayRoshan",
+                "completionCount": 1
+              }
+            ],
+            "players": [
+              {
+                "id": "76561198047544485",
+                "statePath": [{ "id": "76561198047544485" }],
+                "name": "Puppey",
+                "participationStatus": "active",
+                "kills": 3,
+                "killAssistsReceived": 7,
+                "killAssistsGiven": 25,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                    "playerId": "76561198087883707",
+                    "killAssistsReceived": 3
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                    "playerId": "76561198082035378",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                    "playerId": "76561198046990903",
+                    "killAssistsReceived": 1
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                    "playerId": "76561198071296043",
+                    "killAssistsReceived": 1
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 12,
+                "structuresDestroyed": 1,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 23
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 1
+                  }
+                ],
+                "multikills": []
+              },
+              {
+                "id": "76561198071296043",
+                "statePath": [{ "id": "76561198071296043" }],
+                "name": "W_Zayac",
+                "participationStatus": "active",
+                "kills": 2,
+                "killAssistsReceived": 6,
+                "killAssistsGiven": 19,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                    "playerId": "76561198087883707",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                    "playerId": "76561198046990903",
+                    "killAssistsReceived": 2
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                    "playerId": "76561198047544485",
+                    "killAssistsReceived": 1
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                    "playerId": "76561198082035378",
+                    "killAssistsReceived": 1
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 14,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 21
+                  }
+                ],
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 1 }
+                ]
+              },
+              {
+                "id": "76561198082035378",
+                "statePath": [{ "id": "76561198082035378" }],
+                "name": "Nisha",
+                "participationStatus": "active",
+                "kills": 11,
+                "killAssistsReceived": 25,
+                "killAssistsGiven": 15,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                    "playerId": "76561198047544485",
+                    "killAssistsReceived": 8
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                    "playerId": "76561198071296043",
+                    "killAssistsReceived": 4
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                    "playerId": "76561198046990903",
+                    "killAssistsReceived": 8
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                    "playerId": "76561198087883707",
+                    "killAssistsReceived": 5
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 10,
+                "structuresDestroyed": 1,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 29
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 1
+                  },
+                  {
+                    "id": "slayRoshan",
+                    "statePath": [{ "id": "slayRoshan" }],
+                    "type": "slayRoshan",
+                    "completionCount": 1
+                  }
+                ],
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 1 }
+                ]
+              },
+              {
+                "id": "76561198087883707",
+                "statePath": [{ "id": "76561198087883707" }],
+                "name": "Crystallis",
+                "participationStatus": "active",
+                "kills": 16,
+                "killAssistsReceived": 45,
+                "killAssistsGiven": 11,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                    "playerId": "76561198047544485",
+                    "killAssistsReceived": 15
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                    "playerId": "76561198071296043",
+                    "killAssistsReceived": 11
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                    "playerId": "76561198046990903",
+                    "killAssistsReceived": 8
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                    "playerId": "76561198082035378",
+                    "killAssistsReceived": 11
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 6,
+                "structuresDestroyed": 1,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 28
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 1
+                  }
+                ],
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 3 },
+                  { "id": "multikill-3", "numberOfKills": 3, "count": 1 }
+                ]
+              },
+              {
+                "id": "76561198046990903",
+                "statePath": [{ "id": "76561198046990903" }],
+                "name": "Resolut1on",
+                "participationStatus": "active",
+                "kills": 3,
+                "killAssistsReceived": 6,
+                "killAssistsGiven": 19,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                    "playerId": "76561198071296043",
+                    "killAssistsReceived": 3
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                    "playerId": "76561198087883707",
+                    "killAssistsReceived": 1
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                    "playerId": "76561198047544485",
+                    "killAssistsReceived": 1
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                    "playerId": "76561198082035378",
+                    "killAssistsReceived": 1
+                  }
+                ],
+                "weaponKills": {},
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 5,
+                "structuresDestroyed": 1,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 25
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 1
+                  }
+                ],
+                "multikills": []
+              }
+            ]
+          }
+        ],
+        "games": [
+          {
+            "id": "e695967d-e6d7-4b26-98ac-d72869e006e4",
+            "statePath": [{ "id": "e695967d-e6d7-4b26-98ac-d72869e006e4" }],
+            "sequenceNumber": 1,
+            "map": {
+              "name": "Defense of the Ancients",
+              "bounds": {
+                "min": { "x": -8192.0, "y": -8192.0 },
+                "max": { "x": 8192.0, "y": 8192.0 }
+              }
+            },
+            "started": true,
+            "finished": true,
+            "paused": false,
+            "clock": {
+              "id": "clock",
+              "type": "clock",
+              "ticking": false,
+              "ticksBackwards": false,
+              "currentSeconds": 4026,
+              "updatedAt": "2022-10-29T10:05:11.709Z"
+            },
+            "structures": [
+              {
+                "id": "radiant-tower-top-1",
+                "statePath": [{ "id": "radiant-tower-top-1" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -6256.0, "y": 1920.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "radiant-tower-top-2",
+                "statePath": [{ "id": "radiant-tower-top-2" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -6288.0, "y": -872.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-top-3",
+                "statePath": [{ "id": "radiant-tower-top-3" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -6592.0, "y": -3408.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-middle-1",
+                "statePath": [{ "id": "radiant-tower-middle-1" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -1544.0, "y": -1408.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "radiant-tower-middle-2",
+                "statePath": [{ "id": "radiant-tower-middle-2" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -3336.0, "y": -2792.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-middle-3",
+                "statePath": [{ "id": "radiant-tower-middle-3" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -4640.0, "y": -4144.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-bottom-1",
+                "statePath": [{ "id": "radiant-tower-bottom-1" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": 4924.0, "y": -6128.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "radiant-tower-bottom-2",
+                "statePath": [{ "id": "radiant-tower-bottom-2" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -360.0, "y": -6256.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-bottom-3",
+                "statePath": [{ "id": "radiant-tower-bottom-3" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -3952.0, "y": -6112.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "radiant-tower-base-1",
+                "statePath": [{ "id": "radiant-tower-base-1" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -5712.0, "y": -4864.0 },
+                "currentHealth": 0,
+                "maxHealth": 2600
+              },
+              {
+                "id": "radiant-tower-base-2",
+                "statePath": [{ "id": "radiant-tower-base-2" }],
+                "type": "tower",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -5392.0, "y": -5192.0 },
+                "currentHealth": 0,
+                "maxHealth": 2600
+              },
+              {
+                "id": "radiant-barracksMelee-top-1",
+                "statePath": [{ "id": "radiant-barracksMelee-top-1" }],
+                "type": "barracksMelee",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -6336.0, "y": -3758.0 },
+                "currentHealth": 0,
+                "maxHealth": 2200
+              },
+              {
+                "id": "radiant-barracksRange-top-1",
+                "statePath": [{ "id": "radiant-barracksRange-top-1" }],
+                "type": "barracksRange",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -6844.0, "y": -3759.0 },
+                "currentHealth": 0,
+                "maxHealth": 1300
+              },
+              {
+                "id": "radiant-barracksMelee-middle-1",
+                "statePath": [{ "id": "radiant-barracksMelee-middle-1" }],
+                "type": "barracksMelee",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -4672.0, "y": -4552.0 },
+                "currentHealth": 0,
+                "maxHealth": 2200
+              },
+              {
+                "id": "radiant-barracksRange-middle-1",
+                "statePath": [{ "id": "radiant-barracksRange-middle-1" }],
+                "type": "barracksRange",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -5060.0, "y": -4199.0 },
+                "currentHealth": 0,
+                "maxHealth": 1300
+              },
+              {
+                "id": "radiant-barracksMelee-bottom-1",
+                "statePath": [{ "id": "radiant-barracksMelee-bottom-1" }],
+                "type": "barracksMelee",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": false,
+                "position": { "x": -4280.0, "y": -6360.0 },
+                "currentHealth": 2200,
+                "maxHealth": 2200
+              },
+              {
+                "id": "radiant-barracksRange-bottom-1",
+                "statePath": [{ "id": "radiant-barracksRange-bottom-1" }],
+                "type": "barracksRange",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -4279.0, "y": -5853.0 },
+                "currentHealth": 0,
+                "maxHealth": 1300
+              },
+              {
+                "id": "radiant-ancient",
+                "statePath": [{ "id": "radiant-ancient" }],
+                "type": "ancient",
+                "side": "radiant",
+                "teamId": "1546",
+                "destroyed": true,
+                "position": { "x": -5920.0, "y": -5352.0 },
+                "currentHealth": 0,
+                "maxHealth": 4500
+              },
+              {
+                "id": "dire-tower-top-1",
+                "statePath": [{ "id": "dire-tower-top-1" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": true,
+                "position": { "x": -4672.0, "y": 6016.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "dire-tower-top-2",
+                "statePath": [{ "id": "dire-tower-top-2" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": -128.0, "y": 6144.0 },
+                "currentHealth": 1755,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-top-3",
+                "statePath": [{ "id": "dire-tower-top-3" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 3552.0, "y": 5776.0 },
+                "currentHealth": 2500,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-middle-1",
+                "statePath": [{ "id": "dire-tower-middle-1" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": true,
+                "position": { "x": 524.0, "y": 652.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "dire-tower-middle-2",
+                "statePath": [{ "id": "dire-tower-middle-2" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": true,
+                "position": { "x": 2496.0, "y": 2112.0 },
+                "currentHealth": 0,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-middle-3",
+                "statePath": [{ "id": "dire-tower-middle-3" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 4272.0, "y": 3759.0 },
+                "currentHealth": 2274,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-bottom-1",
+                "statePath": [{ "id": "dire-tower-bottom-1" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": true,
+                "position": { "x": 6269.0, "y": -2240.0 },
+                "currentHealth": 0,
+                "maxHealth": 1800
+              },
+              {
+                "id": "dire-tower-bottom-2",
+                "statePath": [{ "id": "dire-tower-bottom-2" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 6400.0, "y": 384.0 },
+                "currentHealth": 196,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-bottom-3",
+                "statePath": [{ "id": "dire-tower-bottom-3" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 6336.0, "y": 3032.0 },
+                "currentHealth": 2500,
+                "maxHealth": 2500
+              },
+              {
+                "id": "dire-tower-base-1",
+                "statePath": [{ "id": "dire-tower-base-1" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 4944.0, "y": 4776.0 },
+                "currentHealth": 2600,
+                "maxHealth": 2600
+              },
+              {
+                "id": "dire-tower-base-2",
+                "statePath": [{ "id": "dire-tower-base-2" }],
+                "type": "tower",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 5280.0, "y": 4432.0 },
+                "currentHealth": 2600,
+                "maxHealth": 2600
+              },
+              {
+                "id": "dire-barracksMelee-top-1",
+                "statePath": [{ "id": "dire-barracksMelee-top-1" }],
+                "type": "barracksMelee",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 3898.0, "y": 5496.0 },
+                "currentHealth": 2200,
+                "maxHealth": 2200
+              },
+              {
+                "id": "dire-barracksRange-top-1",
+                "statePath": [{ "id": "dire-barracksRange-top-1" }],
+                "type": "barracksRange",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 3894.0, "y": 6025.0 },
+                "currentHealth": 1300,
+                "maxHealth": 1300
+              },
+              {
+                "id": "dire-barracksMelee-middle-1",
+                "statePath": [{ "id": "dire-barracksMelee-middle-1" }],
+                "type": "barracksMelee",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 4702.0, "y": 3824.0 },
+                "currentHealth": 2200,
+                "maxHealth": 2200
+              },
+              {
+                "id": "dire-barracksRange-middle-1",
+                "statePath": [{ "id": "dire-barracksRange-middle-1" }],
+                "type": "barracksRange",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 4336.0, "y": 4183.0 },
+                "currentHealth": 1300,
+                "maxHealth": 1300
+              },
+              {
+                "id": "dire-barracksMelee-bottom-1",
+                "statePath": [{ "id": "dire-barracksMelee-bottom-1" }],
+                "type": "barracksMelee",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 6592.0, "y": 3392.0 },
+                "currentHealth": 2200,
+                "maxHealth": 2200
+              },
+              {
+                "id": "dire-barracksRange-bottom-1",
+                "statePath": [{ "id": "dire-barracksRange-bottom-1" }],
+                "type": "barracksRange",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 6064.0, "y": 3376.0 },
+                "currentHealth": 1300,
+                "maxHealth": 1300
+              },
+              {
+                "id": "dire-ancient",
+                "statePath": [{ "id": "dire-ancient" }],
+                "type": "ancient",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 5528.0, "y": 5000.0 },
+                "currentHealth": 4500,
+                "maxHealth": 4500
+              },
+              {
+                "id": "outpost-north",
+                "statePath": [{ "id": "outpost-north" }],
+                "type": "outpost",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": -800.0, "y": 4160.0 },
+                "currentHealth": 450,
+                "maxHealth": 450
+              },
+              {
+                "id": "outpost-south",
+                "statePath": [{ "id": "outpost-south" }],
+                "type": "outpost",
+                "side": "dire",
+                "teamId": "450",
+                "destroyed": false,
+                "position": { "x": 1142.0, "y": -4111.0 },
+                "currentHealth": 450,
+                "maxHealth": 450
+              }
+            ],
+            "nonPlayerCharacters": [
+              {
+                "id": "roshan",
+                "statePath": [{ "id": "roshan" }],
+                "type": "roshan",
+                "side": "neutral",
+                "respawnClock": {
+                  "id": "roshanRespawn",
+                  "type": "respawnClock",
+                  "ticking": false,
+                  "ticksBackwards": true,
+                  "currentSeconds": 0,
+                  "updatedAt": "2022-10-29T10:01:47.156Z"
+                },
+                "position": { "x": -2855.0, "y": 2243.0 },
+                "alive": false
+              }
+            ],
+            "teams": [
+              {
+                "id": "450",
+                "statePath": [{ "id": "450" }],
+                "name": "Secret",
+                "side": "dire",
+                "won": true,
+                "score": 47,
+                "money": 38232,
+                "inventoryValue": 112715,
+                "netWorth": 190247,
+                "kills": 47,
+                "killAssistsReceived": 139,
+                "killAssistsGiven": 139,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                    "playerId": "76561198046964005",
+                    "killAssistsReceived": 30
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                    "playerId": "76561198055052004",
+                    "killAssistsReceived": 15
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                    "playerId": "76561197970632344",
+                    "killAssistsReceived": 35
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                    "playerId": "76561198064001473",
+                    "killAssistsReceived": 35
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                    "playerId": "76561198060324070",
+                    "killAssistsReceived": 24
+                  }
+                ],
+                "weaponKills": {},
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 6 }
+                ],
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 35,
+                "structuresDestroyed": 15,
+                "structuresCaptured": 1,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 139
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 9
+                  },
+                  {
+                    "id": "slayRoshan",
+                    "statePath": [{ "id": "slayRoshan" }],
+                    "type": "slayRoshan",
+                    "completionCount": 4
+                  },
+                  {
+                    "id": "destroyBarracksRange",
+                    "statePath": [{ "id": "destroyBarracksRange" }],
+                    "type": "destroyBarracksRange",
+                    "completionCount": 3
+                  },
+                  {
+                    "id": "destroyBarracksMelee",
+                    "statePath": [{ "id": "destroyBarracksMelee" }],
+                    "type": "destroyBarracksMelee",
+                    "completionCount": 2
+                  },
+                  {
+                    "id": "destroyAncient",
+                    "statePath": [{ "id": "destroyAncient" }],
+                    "type": "destroyAncient",
+                    "completionCount": 1
+                  }
+                ],
+                "players": [
+                  {
+                    "id": "76561197970632344",
+                    "statePath": [{ "id": "76561197970632344" }],
+                    "name": "Sneyking",
+                    "character": { "name": "mirana", "id": "mirana" },
+                    "participationStatus": "active",
+                    "money": 5659,
+                    "inventoryValue": 15105,
+                    "netWorth": 22164,
+                    "kills": 5,
+                    "killAssistsReceived": 15,
+                    "killAssistsGiven": 35,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                        "playerId": "76561198060324070",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                        "playerId": "76561198064001473",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                        "playerId": "76561198046964005",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                        "playerId": "76561198055052004",
+                        "killAssistsReceived": 3
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 9,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 1,
+                    "items": [
+                      {
+                        "id": "item_urn_of_shadows",
+                        "statePath": [{ "id": "item_urn_of_shadows" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aeon_disk",
+                        "statePath": [{ "id": "item_aeon_disk" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_force_staff",
+                        "statePath": [{ "id": "item_force_staff" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_boots_of_bearing",
+                        "statePath": [{ "id": "item_boots_of_bearing" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_lotus_orb",
+                        "statePath": [{ "id": "item_lotus_orb" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_pirate_hat",
+                        "statePath": [{ "id": "item_pirate_hat" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_gem",
+                        "statePath": [{ "id": "item_gem" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ward_dispenser",
+                        "statePath": [{ "id": "item_ward_dispenser" }],
+                        "equipped": false,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 27
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5148.0, "y": -6288.0 },
+                    "alive": true,
+                    "currentHealth": 2437,
+                    "experiencePoints": 53074,
+                    "maxHealth": 2645
+                  },
+                  {
+                    "id": "76561198060324070",
+                    "statePath": [{ "id": "76561198060324070" }],
+                    "name": "skiter",
+                    "character": { "name": "naga siren", "id": "naga siren" },
+                    "participationStatus": "active",
+                    "money": 15235,
+                    "inventoryValue": 39750,
+                    "netWorth": 66185,
+                    "kills": 14,
+                    "killAssistsReceived": 44,
+                    "killAssistsGiven": 24,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                        "playerId": "76561197970632344",
+                        "killAssistsReceived": 13
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                        "playerId": "76561198055052004",
+                        "killAssistsReceived": 8
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                        "playerId": "76561198064001473",
+                        "killAssistsReceived": 12
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                        "playerId": "76561198046964005",
+                        "killAssistsReceived": 11
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [
+                      { "id": "multikill-2", "numberOfKills": 2, "count": 2 }
+                    ],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 8,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_manta",
+                        "statePath": [{ "id": "item_manta" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_heart",
+                        "statePath": [{ "id": "item_heart" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_butterfly",
+                        "statePath": [{ "id": "item_butterfly" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_bloodthorn",
+                        "statePath": [{ "id": "item_bloodthorn" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_black_king_bar",
+                        "statePath": [{ "id": "item_black_king_bar" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_nullifier",
+                        "statePath": [{ "id": "item_nullifier" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_travel_boots_2",
+                        "statePath": [{ "id": "item_travel_boots_2" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_refresher",
+                        "statePath": [{ "id": "item_refresher" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_force_boots",
+                        "statePath": [{ "id": "item_force_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aegis",
+                        "statePath": [{ "id": "item_aegis" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 28
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 4
+                      },
+                      {
+                        "id": "slayRoshan",
+                        "statePath": [{ "id": "slayRoshan" }],
+                        "type": "slayRoshan",
+                        "completionCount": 2
+                      },
+                      {
+                        "id": "destroyBarracksMelee",
+                        "statePath": [{ "id": "destroyBarracksMelee" }],
+                        "type": "destroyBarracksMelee",
+                        "completionCount": 2
+                      },
+                      {
+                        "id": "destroyBarracksRange",
+                        "statePath": [{ "id": "destroyBarracksRange" }],
+                        "type": "destroyBarracksRange",
+                        "completionCount": 1
+                      },
+                      {
+                        "id": "destroyAncient",
+                        "statePath": [{ "id": "destroyAncient" }],
+                        "type": "destroyAncient",
+                        "completionCount": 1
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5335.0, "y": -5756.0 },
+                    "alive": true,
+                    "currentHealth": 4110,
+                    "experiencePoints": 56822,
+                    "maxHealth": 4110
+                  },
+                  {
+                    "id": "76561198055052004",
+                    "statePath": [{ "id": "76561198055052004" }],
+                    "name": "Nine",
+                    "character": {
+                      "name": "obsidian destroyer",
+                      "id": "obsidian destroyer"
+                    },
+                    "participationStatus": "active",
+                    "money": 4617,
+                    "inventoryValue": 20305,
+                    "netWorth": 36022,
+                    "kills": 19,
+                    "killAssistsReceived": 60,
+                    "killAssistsGiven": 15,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                        "playerId": "76561197970632344",
+                        "killAssistsReceived": 17
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                        "playerId": "76561198064001473",
+                        "killAssistsReceived": 15
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                        "playerId": "76561198060324070",
+                        "killAssistsReceived": 14
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                        "playerId": "76561198046964005",
+                        "killAssistsReceived": 14
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [
+                      { "id": "multikill-2", "numberOfKills": 2, "count": 4 }
+                    ],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 7,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_blink",
+                        "statePath": [{ "id": "item_blink" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_travel_boots",
+                        "statePath": [{ "id": "item_travel_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_sheepstick",
+                        "statePath": [{ "id": "item_sheepstick" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_moon_shard",
+                        "statePath": [{ "id": "item_moon_shard" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_timeless_relic",
+                        "statePath": [{ "id": "item_timeless_relic" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_null_talisman",
+                        "statePath": [{ "id": "item_null_talisman" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_apex",
+                        "statePath": [{ "id": "item_apex" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_octarine_core",
+                        "statePath": [{ "id": "item_octarine_core" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 29
+                      },
+                      {
+                        "id": "slayRoshan",
+                        "statePath": [{ "id": "slayRoshan" }],
+                        "type": "slayRoshan",
+                        "completionCount": 2
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -4980.0, "y": -5449.0 },
+                    "alive": true,
+                    "currentHealth": 3646,
+                    "experiencePoints": 64400,
+                    "maxHealth": 3805
+                  },
+                  {
+                    "id": "76561198046964005",
+                    "statePath": [{ "id": "76561198046964005" }],
+                    "name": "33",
+                    "character": { "name": "broodmother", "id": "broodmother" },
+                    "participationStatus": "active",
+                    "money": 9399,
+                    "inventoryValue": 18600,
+                    "netWorth": 33799,
+                    "kills": 5,
+                    "killAssistsReceived": 14,
+                    "killAssistsGiven": 30,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                        "playerId": "76561197970632344",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                        "playerId": "76561198060324070",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                        "playerId": "76561198055052004",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198064001473",
+                        "playerId": "76561198064001473",
+                        "killAssistsReceived": 4
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 8,
+                    "structuresDestroyed": 2,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_wraith_pact",
+                        "statePath": [{ "id": "item_wraith_pact" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_sheepstick",
+                        "statePath": [{ "id": "item_sheepstick" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_boots",
+                        "statePath": [{ "id": "item_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aeon_disk",
+                        "statePath": [{ "id": "item_aeon_disk" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_octarine_core",
+                        "statePath": [{ "id": "item_octarine_core" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_mirror_shield",
+                        "statePath": [{ "id": "item_mirror_shield" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 28
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 2
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5303.0, "y": -5741.0 },
+                    "alive": true,
+                    "currentHealth": 3945,
+                    "experiencePoints": 57499,
+                    "maxHealth": 3945
+                  },
+                  {
+                    "id": "76561198064001473",
+                    "statePath": [{ "id": "76561198064001473" }],
+                    "name": "Saksa",
+                    "character": { "name": "tiny", "id": "tiny" },
+                    "participationStatus": "active",
+                    "money": 3322,
+                    "inventoryValue": 18955,
+                    "netWorth": 32077,
+                    "kills": 4,
+                    "killAssistsReceived": 6,
+                    "killAssistsGiven": 35,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046964005",
+                        "playerId": "76561198046964005",
+                        "killAssistsReceived": 1
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198055052004",
+                        "playerId": "76561198055052004",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198060324070",
+                        "playerId": "76561198060324070",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561197970632344",
+                        "playerId": "76561197970632344",
+                        "killAssistsReceived": 1
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 11,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_phase_boots",
+                        "statePath": [{ "id": "item_phase_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_force_staff",
+                        "statePath": [{ "id": "item_force_staff" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_dust",
+                        "statePath": [{ "id": "item_dust" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aeon_disk",
+                        "statePath": [{ "id": "item_aeon_disk" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_octarine_core",
+                        "statePath": [{ "id": "item_octarine_core" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_overwhelming_blink",
+                        "statePath": [{ "id": "item_overwhelming_blink" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_giants_ring",
+                        "statePath": [{ "id": "item_giants_ring" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 27
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5854.0, "y": -6076.0 },
+                    "alive": true,
+                    "currentHealth": 5055,
+                    "experiencePoints": 51852,
+                    "maxHealth": 5490
+                  }
+                ],
+                "experiencePoints": 283647
+              },
+              {
+                "id": "1546",
+                "statePath": [{ "id": "1546" }],
+                "name": "Tundra Esports",
+                "side": "radiant",
+                "won": false,
+                "score": 35,
+                "money": 21948,
+                "inventoryValue": 94331,
+                "netWorth": 127428,
+                "kills": 35,
+                "killAssistsReceived": 89,
+                "killAssistsGiven": 89,
+                "killAssistsReceivedFromPlayer": [
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                    "playerId": "76561198071296043",
+                    "killAssistsReceived": 19
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                    "playerId": "76561198087883707",
+                    "killAssistsReceived": 11
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                    "playerId": "76561198047544485",
+                    "killAssistsReceived": 25
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                    "playerId": "76561198046990903",
+                    "killAssistsReceived": 19
+                  },
+                  {
+                    "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                    "playerId": "76561198082035378",
+                    "killAssistsReceived": 15
+                  }
+                ],
+                "weaponKills": {},
+                "multikills": [
+                  { "id": "multikill-2", "numberOfKills": 2, "count": 5 },
+                  { "id": "multikill-3", "numberOfKills": 3, "count": 1 }
+                ],
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 47,
+                "structuresDestroyed": 6,
+                "structuresCaptured": 0,
+                "objectives": [
+                  {
+                    "id": "increaseLevel",
+                    "statePath": [{ "id": "increaseLevel" }],
+                    "type": "increaseLevel",
+                    "completionCount": 126
+                  },
+                  {
+                    "id": "destroyTower",
+                    "statePath": [{ "id": "destroyTower" }],
+                    "type": "destroyTower",
+                    "completionCount": 6
+                  },
+                  {
+                    "id": "slayRoshan",
+                    "statePath": [{ "id": "slayRoshan" }],
+                    "type": "slayRoshan",
+                    "completionCount": 1
+                  }
+                ],
+                "players": [
+                  {
+                    "id": "76561198047544485",
+                    "statePath": [{ "id": "76561198047544485" }],
+                    "name": "Puppey",
+                    "character": { "name": "disruptor", "id": "disruptor" },
+                    "participationStatus": "active",
+                    "money": 3594,
+                    "inventoryValue": 11100,
+                    "netWorth": 14694,
+                    "kills": 3,
+                    "killAssistsReceived": 7,
+                    "killAssistsGiven": 25,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                        "playerId": "76561198087883707",
+                        "killAssistsReceived": 3
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                        "playerId": "76561198082035378",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                        "playerId": "76561198046990903",
+                        "killAssistsReceived": 1
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                        "playerId": "76561198071296043",
+                        "killAssistsReceived": 1
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 12,
+                    "structuresDestroyed": 1,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_magic_wand",
+                        "statePath": [{ "id": "item_magic_wand" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_boots",
+                        "statePath": [{ "id": "item_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_lotus_orb",
+                        "statePath": [{ "id": "item_lotus_orb" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_fluffy_hat",
+                        "statePath": [{ "id": "item_fluffy_hat" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ultimate_scepter",
+                        "statePath": [{ "id": "item_ultimate_scepter" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ancient_janggo",
+                        "statePath": [{ "id": "item_ancient_janggo" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ward_sentry",
+                        "statePath": [{ "id": "item_ward_sentry" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_pirate_hat",
+                        "statePath": [{ "id": "item_pirate_hat" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 23
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 1
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5044.0, "y": -5626.0 },
+                    "alive": false,
+                    "currentHealth": 0,
+                    "experiencePoints": 31498,
+                    "maxHealth": 2535
+                  },
+                  {
+                    "id": "76561198071296043",
+                    "statePath": [{ "id": "76561198071296043" }],
+                    "name": "W_Zayac",
+                    "character": { "name": "tusk", "id": "tusk" },
+                    "participationStatus": "active",
+                    "money": 1670,
+                    "inventoryValue": 13631,
+                    "netWorth": 10650,
+                    "kills": 2,
+                    "killAssistsReceived": 6,
+                    "killAssistsGiven": 19,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                        "playerId": "76561198087883707",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                        "playerId": "76561198046990903",
+                        "killAssistsReceived": 2
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                        "playerId": "76561198047544485",
+                        "killAssistsReceived": 1
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                        "playerId": "76561198082035378",
+                        "killAssistsReceived": 1
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [
+                      { "id": "multikill-2", "numberOfKills": 2, "count": 1 }
+                    ],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 14,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_wind_lace",
+                        "statePath": [{ "id": "item_wind_lace" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_phase_boots",
+                        "statePath": [{ "id": "item_phase_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_blink",
+                        "statePath": [{ "id": "item_blink" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_magic_wand",
+                        "statePath": [{ "id": "item_magic_wand" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_dust",
+                        "statePath": [{ "id": "item_dust" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ultimate_scepter",
+                        "statePath": [{ "id": "item_ultimate_scepter" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_fallen_sky",
+                        "statePath": [{ "id": "item_fallen_sky" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_ward_sentry",
+                        "statePath": [{ "id": "item_ward_sentry" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 21
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -3877.0, "y": -3927.0 },
+                    "alive": false,
+                    "currentHealth": 0,
+                    "experiencePoints": 27646,
+                    "maxHealth": 3175
+                  },
+                  {
+                    "id": "76561198082035378",
+                    "statePath": [{ "id": "76561198082035378" }],
+                    "name": "Nisha",
+                    "character": {
+                      "name": "ember spirit",
+                      "id": "ember spirit"
+                    },
+                    "participationStatus": "active",
+                    "money": 5027,
+                    "inventoryValue": 27250,
+                    "netWorth": 39477,
+                    "kills": 11,
+                    "killAssistsReceived": 25,
+                    "killAssistsGiven": 15,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                        "playerId": "76561198047544485",
+                        "killAssistsReceived": 8
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                        "playerId": "76561198071296043",
+                        "killAssistsReceived": 4
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                        "playerId": "76561198046990903",
+                        "killAssistsReceived": 8
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                        "playerId": "76561198087883707",
+                        "killAssistsReceived": 5
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [
+                      { "id": "multikill-2", "numberOfKills": 2, "count": 1 }
+                    ],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 10,
+                    "structuresDestroyed": 1,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_gungir",
+                        "statePath": [{ "id": "item_gungir" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_shivas_guard",
+                        "statePath": [{ "id": "item_shivas_guard" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_sphere",
+                        "statePath": [{ "id": "item_sphere" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_travel_boots",
+                        "statePath": [{ "id": "item_travel_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_refresher",
+                        "statePath": [{ "id": "item_refresher" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_black_king_bar",
+                        "statePath": [{ "id": "item_black_king_bar" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_mirror_shield",
+                        "statePath": [{ "id": "item_mirror_shield" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 29
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 1
+                      },
+                      {
+                        "id": "slayRoshan",
+                        "statePath": [{ "id": "slayRoshan" }],
+                        "type": "slayRoshan",
+                        "completionCount": 1
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -4594.0, "y": -4789.0 },
+                    "alive": false,
+                    "currentHealth": 0,
+                    "experiencePoints": 64400,
+                    "maxHealth": 3420
+                  },
+                  {
+                    "id": "76561198087883707",
+                    "statePath": [{ "id": "76561198087883707" }],
+                    "name": "Crystallis",
+                    "character": { "name": "monkey king", "id": "monkey king" },
+                    "participationStatus": "active",
+                    "money": 7982,
+                    "inventoryValue": 26225,
+                    "netWorth": 41407,
+                    "kills": 16,
+                    "killAssistsReceived": 45,
+                    "killAssistsGiven": 11,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                        "playerId": "76561198047544485",
+                        "killAssistsReceived": 15
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                        "playerId": "76561198071296043",
+                        "killAssistsReceived": 11
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198046990903",
+                        "playerId": "76561198046990903",
+                        "killAssistsReceived": 8
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                        "playerId": "76561198082035378",
+                        "killAssistsReceived": 11
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [
+                      { "id": "multikill-2", "numberOfKills": 2, "count": 3 },
+                      { "id": "multikill-3", "numberOfKills": 3, "count": 1 }
+                    ],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 6,
+                    "structuresDestroyed": 1,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_power_treads",
+                        "statePath": [{ "id": "item_power_treads" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_black_king_bar",
+                        "statePath": [{ "id": "item_black_king_bar" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_clarity",
+                        "statePath": [{ "id": "item_clarity" }],
+                        "equipped": false,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_mjollnir",
+                        "statePath": [{ "id": "item_mjollnir" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_satanic",
+                        "statePath": [{ "id": "item_satanic" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_monkey_king_bar",
+                        "statePath": [{ "id": "item_monkey_king_bar" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_refresher",
+                        "statePath": [{ "id": "item_refresher" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_desolator_2",
+                        "statePath": [{ "id": "item_desolator_2" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 28
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 1
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -5095.0, "y": -5871.0 },
+                    "alive": false,
+                    "currentHealth": 0,
+                    "experiencePoints": 57906,
+                    "maxHealth": 3100
+                  },
+                  {
+                    "id": "76561198046990903",
+                    "statePath": [{ "id": "76561198046990903" }],
+                    "name": "Resolut1on",
+                    "character": { "name": "magnataur", "id": "magnataur" },
+                    "participationStatus": "active",
+                    "money": 3675,
+                    "inventoryValue": 16125,
+                    "netWorth": 21200,
+                    "kills": 3,
+                    "killAssistsReceived": 6,
+                    "killAssistsGiven": 19,
+                    "killAssistsReceivedFromPlayer": [
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198071296043",
+                        "playerId": "76561198071296043",
+                        "killAssistsReceived": 3
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198087883707",
+                        "playerId": "76561198087883707",
+                        "killAssistsReceived": 1
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198047544485",
+                        "playerId": "76561198047544485",
+                        "killAssistsReceived": 1
+                      },
+                      {
+                        "id": "killAssistsReceivedFromPlayer-76561198082035378",
+                        "playerId": "76561198082035378",
+                        "killAssistsReceived": 1
+                      }
+                    ],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 5,
+                    "structuresDestroyed": 1,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_blink",
+                        "statePath": [{ "id": "item_blink" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_force_staff",
+                        "statePath": [{ "id": "item_force_staff" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aether_lens",
+                        "statePath": [{ "id": "item_aether_lens" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_aeon_disk",
+                        "statePath": [{ "id": "item_aeon_disk" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_arcane_boots",
+                        "statePath": [{ "id": "item_arcane_boots" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tpscroll",
+                        "statePath": [{ "id": "item_tpscroll" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_refresher",
+                        "statePath": [{ "id": "item_refresher" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_timeless_relic",
+                        "statePath": [{ "id": "item_timeless_relic" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [
+                      {
+                        "id": "increaseLevel",
+                        "statePath": [{ "id": "increaseLevel" }],
+                        "type": "increaseLevel",
+                        "completionCount": 25
+                      },
+                      {
+                        "id": "destroyTower",
+                        "statePath": [{ "id": "destroyTower" }],
+                        "type": "destroyTower",
+                        "completionCount": 1
+                      }
+                    ],
+                    "abilities": [],
+                    "position": { "x": -7172.0, "y": -6234.0 },
+                    "alive": true,
+                    "currentHealth": 3145,
+                    "experiencePoints": 41635,
+                    "maxHealth": 3145
+                  }
+                ],
+                "experiencePoints": 223085
+              }
+            ],
+            "segments": [],
+            "draftActions": [
+              {
+                "id": "draft-action-1",
+                "statePath": [{ "id": "draft-action-1" }],
+                "sequenceNumber": 1,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "doom bringer",
+                  "type": "character",
+                  "name": "doom bringer"
+                }
+              },
+              {
+                "id": "draft-action-2",
+                "statePath": [{ "id": "draft-action-2" }],
+                "sequenceNumber": 2,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "leshrac",
+                  "type": "character",
+                  "name": "leshrac"
+                }
+              },
+              {
+                "id": "draft-action-3",
+                "statePath": [{ "id": "draft-action-3" }],
+                "sequenceNumber": 3,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "crystal maiden",
+                  "type": "character",
+                  "name": "crystal maiden"
+                }
+              },
+              {
+                "id": "draft-action-4",
+                "statePath": [{ "id": "draft-action-4" }],
+                "sequenceNumber": 4,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "marci",
+                  "type": "character",
+                  "name": "marci"
+                }
+              },
+              {
+                "id": "draft-action-5",
+                "statePath": [{ "id": "draft-action-5" }],
+                "sequenceNumber": 5,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "tusk",
+                  "type": "character",
+                  "name": "tusk"
+                }
+              },
+              {
+                "id": "draft-action-6",
+                "statePath": [{ "id": "draft-action-6" }],
+                "sequenceNumber": 6,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "mirana",
+                  "type": "character",
+                  "name": "mirana"
+                }
+              },
+              {
+                "id": "draft-action-7",
+                "statePath": [{ "id": "draft-action-7" }],
+                "sequenceNumber": 7,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "broodmother",
+                  "type": "character",
+                  "name": "broodmother"
+                }
+              },
+              {
+                "id": "draft-action-8",
+                "statePath": [{ "id": "draft-action-8" }],
+                "sequenceNumber": 8,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "monkey king",
+                  "type": "character",
+                  "name": "monkey king"
+                }
+              },
+              {
+                "id": "draft-action-9",
+                "statePath": [{ "id": "draft-action-9" }],
+                "sequenceNumber": 9,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "slark",
+                  "type": "character",
+                  "name": "slark"
+                }
+              },
+              {
+                "id": "draft-action-10",
+                "statePath": [{ "id": "draft-action-10" }],
+                "sequenceNumber": 10,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "kunkka",
+                  "type": "character",
+                  "name": "kunkka"
+                }
+              },
+              {
+                "id": "draft-action-11",
+                "statePath": [{ "id": "draft-action-11" }],
+                "sequenceNumber": 11,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "ursa",
+                  "type": "character",
+                  "name": "ursa"
+                }
+              },
+              {
+                "id": "draft-action-12",
+                "statePath": [{ "id": "draft-action-12" }],
+                "sequenceNumber": 12,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "enigma",
+                  "type": "character",
+                  "name": "enigma"
+                }
+              },
+              {
+                "id": "draft-action-13",
+                "statePath": [{ "id": "draft-action-13" }],
+                "sequenceNumber": 13,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "undying",
+                  "type": "character",
+                  "name": "undying"
+                }
+              },
+              {
+                "id": "draft-action-14",
+                "statePath": [{ "id": "draft-action-14" }],
+                "sequenceNumber": 14,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "pangolier",
+                  "type": "character",
+                  "name": "pangolier"
+                }
+              },
+              {
+                "id": "draft-action-15",
+                "statePath": [{ "id": "draft-action-15" }],
+                "sequenceNumber": 15,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "tiny",
+                  "type": "character",
+                  "name": "tiny"
+                }
+              },
+              {
+                "id": "draft-action-16",
+                "statePath": [{ "id": "draft-action-16" }],
+                "sequenceNumber": 16,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "disruptor",
+                  "type": "character",
+                  "name": "disruptor"
+                }
+              },
+              {
+                "id": "draft-action-17",
+                "statePath": [{ "id": "draft-action-17" }],
+                "sequenceNumber": 17,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "magnataur",
+                  "type": "character",
+                  "name": "magnataur"
+                }
+              },
+              {
+                "id": "draft-action-18",
+                "statePath": [{ "id": "draft-action-18" }],
+                "sequenceNumber": 18,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "naga siren",
+                  "type": "character",
+                  "name": "naga siren"
+                }
+              },
+              {
+                "id": "draft-action-19",
+                "statePath": [{ "id": "draft-action-19" }],
+                "sequenceNumber": 19,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "winter wyvern",
+                  "type": "character",
+                  "name": "winter wyvern"
+                }
+              },
+              {
+                "id": "draft-action-20",
+                "statePath": [{ "id": "draft-action-20" }],
+                "sequenceNumber": 20,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "lina",
+                  "type": "character",
+                  "name": "lina"
+                }
+              },
+              {
+                "id": "draft-action-21",
+                "statePath": [{ "id": "draft-action-21" }],
+                "sequenceNumber": 21,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "batrider",
+                  "type": "character",
+                  "name": "batrider"
+                }
+              },
+              {
+                "id": "draft-action-22",
+                "statePath": [{ "id": "draft-action-22" }],
+                "sequenceNumber": 22,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "dark seer",
+                  "type": "character",
+                  "name": "dark seer"
+                }
+              },
+              {
+                "id": "draft-action-23",
+                "statePath": [{ "id": "draft-action-23" }],
+                "sequenceNumber": 23,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "ember spirit",
+                  "type": "character",
+                  "name": "ember spirit"
+                }
+              },
+              {
+                "id": "draft-action-24",
+                "statePath": [{ "id": "draft-action-24" }],
+                "sequenceNumber": 24,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "obsidian destroyer",
+                  "type": "character",
+                  "name": "obsidian destroyer"
+                }
+              }
+            ]
+          },
+          {
+            "id": "a17abaaf-7716-4f20-8b97-a16edcf1f739",
+            "statePath": [{ "id": "a17abaaf-7716-4f20-8b97-a16edcf1f739" }],
+            "sequenceNumber": 2,
+            "map": {
+              "name": "Defense of the Ancients",
+              "bounds": {
+                "min": { "x": -8192.0, "y": -8192.0 },
+                "max": { "x": 8192.0, "y": 8192.0 }
+              }
+            },
+            "started": false,
+            "finished": false,
+            "paused": false,
+            "clock": {
+              "id": "clock",
+              "type": "clock",
+              "ticking": false,
+              "ticksBackwards": false,
+              "currentSeconds": -90,
+              "updatedAt": "2022-10-29T10:36:57.459Z"
+            },
+            "structures": [],
+            "nonPlayerCharacters": [],
+            "teams": [
+              {
+                "id": "450",
+                "statePath": [{ "id": "450" }],
+                "name": "Secret",
+                "side": "dire",
+                "won": false,
+                "score": 0,
+                "money": 300,
+                "inventoryValue": 0,
+                "netWorth": 300,
+                "kills": 0,
+                "killAssistsReceived": 0,
+                "killAssistsGiven": 0,
+                "killAssistsReceivedFromPlayer": [],
+                "weaponKills": {},
+                "multikills": [],
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 0,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 0,
+                "objectives": [],
+                "players": [
+                  {
+                    "id": "76561197970632344",
+                    "statePath": [{ "id": "76561197970632344" }],
+                    "name": "Sneyking",
+                    "character": {
+                      "name": "crystal maiden",
+                      "id": "crystal maiden"
+                    },
+                    "participationStatus": "active",
+                    "money": 25,
+                    "inventoryValue": 0,
+                    "netWorth": 25,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": 6900.0, "y": 6649.0 },
+                    "alive": true,
+                    "currentHealth": 560,
+                    "experiencePoints": 0,
+                    "maxHealth": 560
+                  },
+                  {
+                    "id": "76561198060324070",
+                    "statePath": [{ "id": "76561198060324070" }],
+                    "name": "skiter",
+                    "character": { "name": "terrorblade", "id": "terrorblade" },
+                    "participationStatus": "active",
+                    "money": 10,
+                    "inventoryValue": 0,
+                    "netWorth": 10,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": 6950.0, "y": 6499.0 },
+                    "alive": true,
+                    "currentHealth": 600,
+                    "experiencePoints": 0,
+                    "maxHealth": 600
+                  },
+                  {
+                    "id": "76561198055052004",
+                    "statePath": [{ "id": "76561198055052004" }],
+                    "name": "Nine",
+                    "character": {
+                      "name": "primal beast",
+                      "id": "primal beast"
+                    },
+                    "participationStatus": "active",
+                    "money": 240,
+                    "inventoryValue": 0,
+                    "netWorth": 240,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": 7100.0, "y": 6375.0 },
+                    "alive": true,
+                    "currentHealth": 760,
+                    "experiencePoints": 0,
+                    "maxHealth": 760
+                  },
+                  {
+                    "id": "76561198046964005",
+                    "statePath": [{ "id": "76561198046964005" }],
+                    "name": "33",
+                    "character": { "name": "visage", "id": "visage" },
+                    "participationStatus": "active",
+                    "money": 5,
+                    "inventoryValue": 0,
+                    "netWorth": 5,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": 7150.0, "y": 6224.0 },
+                    "alive": true,
+                    "currentHealth": 680,
+                    "experiencePoints": 0,
+                    "maxHealth": 680
+                  },
+                  {
+                    "id": "76561198064001473",
+                    "statePath": [{ "id": "76561198064001473" }],
+                    "name": "Saksa",
+                    "character": { "name": "rattletrap", "id": "rattletrap" },
+                    "participationStatus": "active",
+                    "money": 20,
+                    "inventoryValue": 0,
+                    "netWorth": 20,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": 7300.0, "y": 6099.0 },
+                    "alive": true,
+                    "currentHealth": 760,
+                    "experiencePoints": 0,
+                    "maxHealth": 760
+                  }
+                ],
+                "experiencePoints": 0
+              },
+              {
+                "id": "1546",
+                "statePath": [{ "id": "1546" }],
+                "name": "Tundra Esports",
+                "side": "radiant",
+                "won": false,
+                "score": 0,
+                "money": 265,
+                "inventoryValue": 325,
+                "netWorth": 590,
+                "kills": 0,
+                "killAssistsReceived": 0,
+                "killAssistsGiven": 0,
+                "killAssistsReceivedFromPlayer": [],
+                "weaponKills": {},
+                "multikills": [],
+                "teamkills": 0,
+                "teamkillAssistsReceived": 0,
+                "teamkillAssistsGiven": 0,
+                "teamkillAssistsReceivedFromPlayer": [],
+                "weaponTeamkills": {},
+                "selfkills": 0,
+                "deaths": 0,
+                "structuresDestroyed": 0,
+                "structuresCaptured": 0,
+                "objectives": [],
+                "players": [
+                  {
+                    "id": "76561198047544485",
+                    "statePath": [{ "id": "76561198047544485" }],
+                    "name": "Puppey",
+                    "character": { "name": "silencer", "id": "silencer" },
+                    "participationStatus": "active",
+                    "money": 10,
+                    "inventoryValue": 325,
+                    "netWorth": 335,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [
+                      {
+                        "id": "item_enchanted_mango",
+                        "statePath": [{ "id": "item_enchanted_mango" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_tango",
+                        "statePath": [{ "id": "item_tango" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_faerie_fire",
+                        "statePath": [{ "id": "item_faerie_fire" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_branches",
+                        "statePath": [{ "id": "item_branches" }],
+                        "equipped": true,
+                        "stashed": false
+                      },
+                      {
+                        "id": "item_smoke_of_deceit",
+                        "statePath": [{ "id": "item_smoke_of_deceit" }],
+                        "equipped": true,
+                        "stashed": false
+                      }
+                    ],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": -6700.0, "y": -6700.0 },
+                    "alive": true,
+                    "currentHealth": 600,
+                    "experiencePoints": 0,
+                    "maxHealth": 600
+                  },
+                  {
+                    "id": "76561198071296043",
+                    "statePath": [{ "id": "76561198071296043" }],
+                    "name": "W_Zayac",
+                    "character": {
+                      "name": "nyx assassin",
+                      "id": "nyx assassin"
+                    },
+                    "participationStatus": "active",
+                    "money": 5,
+                    "inventoryValue": 0,
+                    "netWorth": 5,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": -6750.0, "y": -6550.0 },
+                    "alive": true,
+                    "currentHealth": 540,
+                    "experiencePoints": 0,
+                    "maxHealth": 540
+                  },
+                  {
+                    "id": "76561198082035378",
+                    "statePath": [{ "id": "76561198082035378" }],
+                    "name": "Nisha",
+                    "character": { "name": "pangolier", "id": "pangolier" },
+                    "participationStatus": "active",
+                    "money": 190,
+                    "inventoryValue": 0,
+                    "netWorth": 190,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": -6950.0, "y": -6275.0 },
+                    "alive": true,
+                    "currentHealth": 600,
+                    "experiencePoints": 0,
+                    "maxHealth": 600
+                  },
+                  {
+                    "id": "76561198087883707",
+                    "statePath": [{ "id": "76561198087883707" }],
+                    "name": "Crystallis",
+                    "character": { "name": "drow ranger", "id": "drow ranger" },
+                    "participationStatus": "active",
+                    "money": 45,
+                    "inventoryValue": 0,
+                    "netWorth": 45,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": -6900.0, "y": -6425.0 },
+                    "alive": true,
+                    "currentHealth": 600,
+                    "experiencePoints": 0,
+                    "maxHealth": 600
+                  },
+                  {
+                    "id": "76561198046990903",
+                    "statePath": [{ "id": "76561198046990903" }],
+                    "name": "Resolut1on",
+                    "character": { "name": "dawnbreaker", "id": "dawnbreaker" },
+                    "participationStatus": "active",
+                    "money": 15,
+                    "inventoryValue": 0,
+                    "netWorth": 15,
+                    "kills": 0,
+                    "killAssistsReceived": 0,
+                    "killAssistsGiven": 0,
+                    "killAssistsReceivedFromPlayer": [],
+                    "weaponKills": {},
+                    "multikills": [],
+                    "teamkills": 0,
+                    "teamkillAssistsReceived": 0,
+                    "teamkillAssistsGiven": 0,
+                    "teamkillAssistsReceivedFromPlayer": [],
+                    "weaponTeamkills": {},
+                    "selfkills": 0,
+                    "deaths": 0,
+                    "structuresDestroyed": 0,
+                    "structuresCaptured": 0,
+                    "items": [],
+                    "objectives": [],
+                    "abilities": [],
+                    "position": { "x": -7100.0, "y": -6150.0 },
+                    "alive": true,
+                    "currentHealth": 880,
+                    "experiencePoints": 0,
+                    "maxHealth": 880
+                  }
+                ],
+                "experiencePoints": 0
+              }
+            ],
+            "segments": [],
+            "draftActions": [
+              {
+                "id": "draft-action-1",
+                "statePath": [{ "id": "draft-action-1" }],
+                "sequenceNumber": 1,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "leshrac",
+                  "type": "character",
+                  "name": "leshrac"
+                }
+              },
+              {
+                "id": "draft-action-2",
+                "statePath": [{ "id": "draft-action-2" }],
+                "sequenceNumber": 2,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "doom bringer",
+                  "type": "character",
+                  "name": "doom bringer"
+                }
+              },
+              {
+                "id": "draft-action-3",
+                "statePath": [{ "id": "draft-action-3" }],
+                "sequenceNumber": 3,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "marci",
+                  "type": "character",
+                  "name": "marci"
+                }
+              },
+              {
+                "id": "draft-action-4",
+                "statePath": [{ "id": "draft-action-4" }],
+                "sequenceNumber": 4,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "broodmother",
+                  "type": "character",
+                  "name": "broodmother"
+                }
+              },
+              {
+                "id": "draft-action-5",
+                "statePath": [{ "id": "draft-action-5" }],
+                "sequenceNumber": 5,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "crystal maiden",
+                  "type": "character",
+                  "name": "crystal maiden"
+                }
+              },
+              {
+                "id": "draft-action-6",
+                "statePath": [{ "id": "draft-action-6" }],
+                "sequenceNumber": 6,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "silencer",
+                  "type": "character",
+                  "name": "silencer"
+                }
+              },
+              {
+                "id": "draft-action-7",
+                "statePath": [{ "id": "draft-action-7" }],
+                "sequenceNumber": 7,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "dawnbreaker",
+                  "type": "character",
+                  "name": "dawnbreaker"
+                }
+              },
+              {
+                "id": "draft-action-8",
+                "statePath": [{ "id": "draft-action-8" }],
+                "sequenceNumber": 8,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "visage",
+                  "type": "character",
+                  "name": "visage"
+                }
+              },
+              {
+                "id": "draft-action-9",
+                "statePath": [{ "id": "draft-action-9" }],
+                "sequenceNumber": 9,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "monkey king",
+                  "type": "character",
+                  "name": "monkey king"
+                }
+              },
+              {
+                "id": "draft-action-10",
+                "statePath": [{ "id": "draft-action-10" }],
+                "sequenceNumber": 10,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "life stealer",
+                  "type": "character",
+                  "name": "life stealer"
+                }
+              },
+              {
+                "id": "draft-action-11",
+                "statePath": [{ "id": "draft-action-11" }],
+                "sequenceNumber": 11,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "bloodseeker",
+                  "type": "character",
+                  "name": "bloodseeker"
+                }
+              },
+              {
+                "id": "draft-action-12",
+                "statePath": [{ "id": "draft-action-12" }],
+                "sequenceNumber": 12,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "slark",
+                  "type": "character",
+                  "name": "slark"
+                }
+              },
+              {
+                "id": "draft-action-13",
+                "statePath": [{ "id": "draft-action-13" }],
+                "sequenceNumber": 13,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "lina",
+                  "type": "character",
+                  "name": "lina"
+                }
+              },
+              {
+                "id": "draft-action-14",
+                "statePath": [{ "id": "draft-action-14" }],
+                "sequenceNumber": 14,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "naga siren",
+                  "type": "character",
+                  "name": "naga siren"
+                }
+              },
+              {
+                "id": "draft-action-15",
+                "statePath": [{ "id": "draft-action-15" }],
+                "sequenceNumber": 15,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "nyx assassin",
+                  "type": "character",
+                  "name": "nyx assassin"
+                }
+              },
+              {
+                "id": "draft-action-16",
+                "statePath": [{ "id": "draft-action-16" }],
+                "sequenceNumber": 16,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "rattletrap",
+                  "type": "character",
+                  "name": "rattletrap"
+                }
+              },
+              {
+                "id": "draft-action-17",
+                "statePath": [{ "id": "draft-action-17" }],
+                "sequenceNumber": 17,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "primal beast",
+                  "type": "character",
+                  "name": "primal beast"
+                }
+              },
+              {
+                "id": "draft-action-18",
+                "statePath": [{ "id": "draft-action-18" }],
+                "sequenceNumber": 18,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "pangolier",
+                  "type": "character",
+                  "name": "pangolier"
+                }
+              },
+              {
+                "id": "draft-action-19",
+                "statePath": [{ "id": "draft-action-19" }],
+                "sequenceNumber": 19,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "enigma",
+                  "type": "character",
+                  "name": "enigma"
+                }
+              },
+              {
+                "id": "draft-action-20",
+                "statePath": [{ "id": "draft-action-20" }],
+                "sequenceNumber": 20,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "chaos knight",
+                  "type": "character",
+                  "name": "chaos knight"
+                }
+              },
+              {
+                "id": "draft-action-21",
+                "statePath": [{ "id": "draft-action-21" }],
+                "sequenceNumber": 21,
+                "type": "ban",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "dark seer",
+                  "type": "character",
+                  "name": "dark seer"
+                }
+              },
+              {
+                "id": "draft-action-22",
+                "statePath": [{ "id": "draft-action-22" }],
+                "sequenceNumber": 22,
+                "type": "ban",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "luna",
+                  "type": "character",
+                  "name": "luna"
+                }
+              },
+              {
+                "id": "draft-action-23",
+                "statePath": [{ "id": "draft-action-23" }],
+                "sequenceNumber": 23,
+                "type": "pick",
+                "drafter": { "id": "450", "type": "team" },
+                "draftable": {
+                  "id": "terrorblade",
+                  "type": "character",
+                  "name": "terrorblade"
+                }
+              },
+              {
+                "id": "draft-action-24",
+                "statePath": [{ "id": "draft-action-24" }],
+                "sequenceNumber": 24,
+                "type": "pick",
+                "drafter": { "id": "1546", "type": "team" },
+                "draftable": {
+                  "id": "drow ranger",
+                  "type": "character",
+                  "name": "drow ranger"
+                }
+              }
+            ]
+          }
+        ],
+        "draftActions": []
+      }
+    }
+  ]
+}
