@@ -4,9 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Timeline } from './components/timeline/Timeline'
 import { SideBar } from './components/SideBar'
 import { DataPane } from './components/DataPane'
-import { ArrowsRightLeftIcon } from '@heroicons/react/20/solid'
-import { useWebSocketServer } from './hooks/useWebsocketServer'
-// import { IconButton } from '@material-tailwind/react'
+import { Header } from './components/Header'
 
 const user = {
   name: 'Tom Cook',
@@ -34,14 +32,6 @@ function classNames(...classes: any) {
 export default function App() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-slate-800">
           {({ open }) => (
@@ -214,33 +204,7 @@ export default function App() {
           )}
         </Disclosure>
 
-        <header className="bg-white shadow border-b-2 border-slate-500">
-          <div className="px-4 py-2 flex justify-between">
-            <h1 className="text-xl font-bold tracking-tight text-gray-700 flex items-center">
-              Live Dashboard
-            </h1>
-            <div className="flex">
-              <div className="h-8 w-12 text-xl text-slate-800 rounded-full border border-slate-500 flex items-center justify-center">
-                1
-              </div>
-              <div className="bg-slate-200 shadow shadow-slate-500 rounded mx-4 w-56 flex justify-center items-center">
-                FNATIC
-              </div>
-              <button className="bg-slate-800 middle none center px-1.5 my-0.5 flex items-center justify-center rounded-lg transition-all hover:opacity-75 focus:ring-1 focus:ring-violet-300 active:opacity-[0.85]">
-                <ArrowsRightLeftIcon className="h-4 w-4 text-white" />
-              </button>
-              <div className="bg-slate-200 shadow shadow-slate-500 rounded mx-4 w-56 flex justify-center items-center">
-                ZETA
-              </div>
-              <div className="h-8 w-12 text-xl text-slate-800 rounded-full border border-slate-500 flex items-center justify-center">
-                0
-              </div>
-            </div>
-            <h1 className="text-l font-bold text-gray-700 flex items-center">
-              Tournament Name Here
-            </h1>
-          </div>
-        </header>
+        <Header />
         <main>
           <div className="flex mx-auto bg-white">
             {/* Your content */}

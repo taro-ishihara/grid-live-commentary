@@ -1,6 +1,7 @@
 import { Player } from '../../types/player'
 import { Settings } from './settings/Settings'
 import { PlayerCard } from './PlayerCard'
+import { useEvents } from '../contexts/EventsContext'
 
 const players: Player[] = [
   {
@@ -58,6 +59,7 @@ const players: Player[] = [
 const uniqueTeams = Array.from(new Set(players.map((player) => player.team)))
 
 const SideBar = () => {
+  const state = useEvents().state
   return (
     <div className="flex flex-col min-w-[280px] h-auto bg-slate-800">
       <div className="flex justify-between text-white mx-4 my-2">
