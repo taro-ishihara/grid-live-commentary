@@ -4,10 +4,12 @@ import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import { classNames } from '../utilities/class-names'
 import { useEvents } from '../contexts/EventsContext'
 import { Event } from '../../types/event'
+import { State } from '../../types/state'
 
 export default function DataPane() {
   const event = useEvents()
   const events: Event[] = event.events
+  const state: State = event.state
 
   let [categories] = useState({
     'Raw Events': [
@@ -146,40 +148,37 @@ export default function DataPane() {
           >
             <div className="w-full">
               <div className="mx-auto w-full max-w-md rounded-2xl bg-white">
-                <Disclosure>
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full justify-between rounded bg-purple-100 px-4 py-1 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                        <span>player1</span>
-                        <ChevronUpIcon
-                          className={`${
-                            open ? 'rotate-180 transform' : ''
-                          } h-5 w-5 text-purple-500`}
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                        p1 STATS
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
-                <Disclosure as="div" className="mt-2">
-                  {({ open }) => (
-                    <>
-                      <Disclosure.Button className="flex w-full justify-between rounded bg-purple-100 px-4 py-1 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-                        <span>player2</span>
-                        <ChevronUpIcon
-                          className={`${
-                            open ? 'rotate-180 transform' : ''
-                          } h-5 w-5 text-purple-500`}
-                        />
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                        p2 stats
-                      </Disclosure.Panel>
-                    </>
-                  )}
-                </Disclosure>
+                {state.teams.map((team) =>
+                  team.players.map((player) => (
+                    <Disclosure>
+                      {({ open }) => (
+                        <div className="mb-2">
+                          <Disclosure.Button className="flex w-full justify-between rounded bg-purple-100 px-4 py-1 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                            <span>{player.name}</span>
+                            <ChevronUpIcon
+                              className={`${
+                                open ? 'rotate-180 transform' : ''
+                              } h-5 w-5 text-purple-500`}
+                            />
+                          </Disclosure.Button>
+                          <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                            Charactor: {`${player.character}`}
+                            <br />
+                            K/D: {`${player.kills}/${player.deaths}`}
+                            <br />
+                            Assist(G/R):{' '}
+                            {`${player.killAssistsGiven}/${player.killAssistsReceived}`}
+                            <br />
+                            Money: {`${player.money}`}
+                            <br />
+                            Structures(D/C):{' '}
+                            {`${player.structuresDestroyed}/${player.structuresCaptured}`}
+                          </Disclosure.Panel>
+                        </div>
+                      )}
+                    </Disclosure>
+                  )),
+                )}
               </div>
             </div>
           </Tab.Panel>
