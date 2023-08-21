@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "title": { "nameShortened": "" },
+  "format": "",
+  "started": false,
+  "finished": false,
+  "valid": true,
+  "teams": [],
+  "games": [],
+  "draftActions": [],
+  "currentGame": {
+    "id": "",
+    "sequenceNumber": 0,
+    "map": {
+      "name": "",
+      "bounds": {
+        "min": { "x": 0, "y": 0 },
+        "max": { "x": 0, "y": 0 }
+      }
+    },
+    "started": false,
+    "finished": false,
+    "paused": false,
+    "clock": {
+      "id": "",
+      "type": "",
+      "ticking": false,
+      "ticksBackwards": false,
+      "currentSeconds": 0,
+      "updatedAt": ""
+    },
+    "structures": [],
+    "nonPlayerCharacters": [],
+    "teams": [],
+    "draftActions": []
+  }
+}

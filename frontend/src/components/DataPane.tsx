@@ -2,8 +2,13 @@ import { useState } from 'react'
 import { Tab, Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import { classNames } from '../utilities/class-names'
+import { useEvents } from '../contexts/EventsContext'
+import { Event } from '../../types/event'
 
 export default function DataPane() {
+  const event = useEvents()
+  const events: Event[] = event.events
+
   let [categories] = useState({
     'Raw Events': [
       {
@@ -97,29 +102,27 @@ export default function DataPane() {
                 placeholder="Type query"
               />
             </div>
-            <ul>
-              {categories['Raw Events'].map((post) => (
+            <ul className="overflow-y-scroll p-1">
+              {events.slice(-7).map((event) => (
                 <li
-                  key={post.id}
+                  key={event.id}
                   className="relative rounded-md p-2 hover:bg-gray-100"
                 >
-                  <h3 className="text-sm font-medium leading-5">
-                    {post.eventDetail}
+                  <h3 className="text-sm font-medium leading-5 truncate">
+                    {event.id}
                   </h3>
 
                   <ul className="mt-1 flex space-x-1 text-xs font-normal leading-4 text-gray-500">
-                    <li>{post.time}</li>
+                    <li>{event.action}</li>
                     <li>&middot;</li>
                     <li
-                      className={`w-12 rounded flex items-center justify-center text-white ${
-                        post.eventType === 'Kill'
-                          ? 'bg-red-500'
-                          : post.eventType === 'Field'
-                          ? 'bg-yellow-500'
+                      className={`px-2 rounded flex items-center justify-center text-white ${
+                        event.actor.type === 'player'
+                          ? 'bg-green-500'
                           : 'bg-gray-500'
                       }`}
                     >
-                      {post.eventType}
+                      {event.actor.type}
                     </li>
                   </ul>
 
