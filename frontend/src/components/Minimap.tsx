@@ -1,7 +1,7 @@
-import { useGrid } from '../contexts/GridContext'
+// import { useGrid } from '../contexts/GridContext'
 
 const Minimap = () => {
-  const grid = useGrid()
+  // const grid = useGrid()
   return <div>minimaphere</div>
 }
 
