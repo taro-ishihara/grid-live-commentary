@@ -1,3 +1,8 @@
+type Grid = {
+  events: Event[]
+  state: State
+}
+
 export interface Event {
   id: string
   includesFullState: boolean

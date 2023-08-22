@@ -5,13 +5,8 @@ import {
   useState,
   useEffect,
 } from 'react'
-import { Event, State, Game } from '../../types/grid'
+import { Grid, Event, State } from '../types/grid'
 import initData from './initial-data.json'
-
-type Grid = {
-  events: Event[]
-  state: State
-}
 
 const GridContext = createContext<Grid>({
   events: [],
@@ -30,8 +25,7 @@ const GridProvider = ({ children }: { children: ReactNode }) => {
     ws.onmessage = (message) => {
       const response = JSON.parse(message.data)
       response.events.map((event: Event) => {
-        const games: Game[] =
-          'seriesState' in event ? event.seriesState.games : []
+        const games = 'seriesState' in event ? event.seriesState.games : []
         const ongoingGames = games.filter(
           (game) => game.started && !game.finished,
         )
