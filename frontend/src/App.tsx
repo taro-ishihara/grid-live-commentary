@@ -5,6 +5,7 @@ import { Timeline } from './components/timeline/Timeline'
 import { SideBar } from './components/SideBar'
 import { DataPane } from './components/DataPane'
 import { Header } from './components/Header'
+import { Minimap } from './components/Minimap'
 
 const user = {
   name: 'Tom Cook',
@@ -220,8 +221,11 @@ export default function App() {
                 </div>
                 <DataPane />
               </div>
-              <div>
+              <div className="flex justify-between">
                 <Timeline />
+                <div className="w-[280px]">
+                  <Minimap />
+                </div>
               </div>
             </div>
           </div>
