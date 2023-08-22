@@ -1,79 +1,18 @@
-import { useState } from 'react'
 import { Tab, Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import { classNames } from '../utilities/class-names'
-import { useEvents } from '../contexts/EventsContext'
-import { Event } from '../../types/event'
-import { State } from '../../types/state'
+import { useGrid } from '../contexts/GridContext'
 
 export default function DataPane() {
-  const event = useEvents()
-  const events: Event[] = event.events
-  const state: State = event.state
-
-  let [categories] = useState({
-    'Raw Events': [
-      {
-        id: 1,
-        eventType: 'System',
-        eventDetail: 'Round 1 Started',
-        time: '0:00',
-        actor: 'system',
-      },
-      {
-        id: 2,
-        eventType: 'Kill',
-        eventDetail: 'player1 killed player2',
-        time: '0:10',
-        actor: 'player1',
-      },
-      {
-        id: 3,
-        eventType: 'Kill',
-        eventDetail: 'player1 killed player3',
-        time: '0:15',
-        actor: 'player1',
-      },
-      {
-        id: 4,
-        eventType: 'Kill',
-        eventDetail: 'player1 killed player4',
-        time: '0:30',
-        actor: 'player1',
-      },
-      {
-        id: 5,
-        eventType: 'Field',
-        eventDetail: 'Bomb Set by player1',
-        time: '0:45',
-        actor: 'player1',
-      },
-    ],
-    Stats: [
-      {
-        id: 1,
-        eventType: 'Seek',
-        eventDetail: '',
-        time: '0:15',
-        actor: 'player1',
-      },
-      {
-        id: 2,
-        eventType: 'Seek',
-        eventDetail: '',
-        time: '0:50',
-        actor: 'player2',
-      },
-    ],
-  })
+  const grid = useGrid()
 
   return (
     <div className="w-96 mb-2 border-l-2">
       <Tab.Group>
         <Tab.List className="flex space-x-1 mr-0.5 bg-slate-200">
-          {Object.keys(categories).map((category) => (
+          {['Raw Events', 'State'].map((tabName) => (
             <Tab
-              key={category}
+              key={tabName}
               className={({ selected }) =>
                 classNames(
                   'w-full py-2.5 text-sm font-medium leading-5 text-slate-700',
@@ -84,7 +23,7 @@ export default function DataPane() {
                 )
               }
             >
-              {category}
+              {tabName}
             </Tab>
           ))}
         </Tab.List>
@@ -105,7 +44,7 @@ export default function DataPane() {
               />
             </div>
             <ul className="overflow-y-scroll p-1">
-              {events.slice(-7).map((event) => (
+              {grid.events.slice(-7).map((event) => (
                 <li
                   key={event.id}
                   className="relative rounded-md p-2 hover:bg-gray-100"
@@ -148,7 +87,7 @@ export default function DataPane() {
           >
             <div className="w-full">
               <div className="mx-auto w-full max-w-md rounded-2xl bg-white">
-                {state.teams.map((team) =>
+                {grid.state.teams.map((team) =>
                   team.players.map((player) => (
                     <Disclosure>
                       {({ open }) => (

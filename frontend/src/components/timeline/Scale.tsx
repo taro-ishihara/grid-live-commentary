@@ -1,4 +1,8 @@
-const Scale = (prop: { seq: number; time: number }) => {
+import { useGrid } from '../../contexts/GridContext'
+
+const Scale = () => {
+  const grid = useGrid()
+  const time = grid.state.timer.time
   const createScale = (minutes: number) => {
     return [
       `${minutes + 1}:00`,
@@ -8,7 +12,11 @@ const Scale = (prop: { seq: number; time: number }) => {
       `${minutes}:30`,
       `${minutes}:10`,
     ].map((time) => {
-      return <div className="pl-2 pb-0.5 flex flex-col justify-end">{time}</div>
+      return (
+        <div key={time} className="pl-2 pb-0.5 flex flex-col justify-end">
+          {time}
+        </div>
+      )
     })
   }
 
@@ -17,13 +25,13 @@ const Scale = (prop: { seq: number; time: number }) => {
       <div className="flex overflow-hidden h-full">
         <div
           className="flex w-full"
-          style={{ transform: `translateX(${((prop.time % 60) / 60) * 100}%)` }}
+          style={{ transform: `translateX(${((time % 60) / 60) * 100}%)` }}
         >
           <div className="absolute w-full h-full grid grid-cols-6 divide-x divide-slate-500 divide-dashed border-x border-slate-700 text-xs">
-            {createScale(Math.floor(prop.time / 60 - 1))}
+            {createScale(Math.floor(time / 60 - 1))}
           </div>
           <div className="-translate-x-full w-full h-full grid grid-cols-6 divide-x divide-slate-500 divide-dashed text-xs">
-            {createScale(Math.floor(prop.time / 60))}
+            {createScale(Math.floor(time / 60))}
           </div>
         </div>
       </div>

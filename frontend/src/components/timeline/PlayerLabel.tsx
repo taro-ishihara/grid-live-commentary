@@ -1,7 +1,9 @@
-import { Team } from '../../../types/team'
+import { useGrid } from '../../contexts/GridContext'
 
-const PlayerLabels = (prop: { teams: Team[] }) => {
-  return prop.teams.map((team) => (
+const PlayerLabels = () => {
+  const grid = useGrid()
+
+  return grid.state.teams.map((team) => (
     <div
       className={`w-20 my-2 ${
         team.side === 'radiant' ? 'bg-indigo-800' : 'bg-rose-800'

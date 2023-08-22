@@ -1,4 +1,4 @@
-import { Player } from '../../types/player'
+import { Player } from '../../types/grid'
 
 const PlayerCard = (player: Player) => {
   return (

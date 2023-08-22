@@ -1,10 +1,9 @@
 import { ArrowsRightLeftIcon } from '@heroicons/react/20/solid'
-import { useEvents } from '../contexts/EventsContext'
-import { State } from '../../types/state'
+import { useGrid } from '../contexts/GridContext'
 
 const Header = () => {
-  const state: State = useEvents().state
-  const teams = state.teams
+  const grid = useGrid()
+  console.log(grid.state)
   return (
     <header className="bg-white shadow border-b-2 border-slate-500">
       <div className="px-4 py-2 flex justify-between">
@@ -12,7 +11,7 @@ const Header = () => {
           Live Dashboard
         </h1>
         <div className="flex">
-          {teams.map((team, index) => (
+          {grid.state.teams.map((team) => (
             <>
               <div className="bg-slate-200 shadow shadow-slate-500 rounded mx-4 w-56 flex justify-between items-center px-4">
                 {team.name}
@@ -20,18 +19,16 @@ const Header = () => {
                   {team.score}
                 </div>
               </div>
-              {index === 0 ? (
+              {
                 <button className="middle none center px-1.5 ring-1 ring-slate-800 flex items-center justify-center rounded-lg transition-all hover:opacity-75 focus:ring-1 focus:ring-violet-300 active:opacity-[0.85]">
                   <ArrowsRightLeftIcon className="h-4 w-4" />
                 </button>
-              ) : (
-                ''
-              )}
+              }
             </>
           ))}
         </div>
         <h1 className="text-l font-bold text-gray-700 flex items-center">
-          {state.title.nameShortened}
+          {grid.state.title.nameShortened}
         </h1>
       </div>
     </header>

@@ -8,7 +8,7 @@
   "teams": [],
   "games": [],
   "draftActions": [],
-  "currentGame": {
+  "ongoingGame": {
     "id": "",
     "sequenceNumber": 0,
     "map": {
@@ -33,5 +33,9 @@
     "nonPlayerCharacters": [],
     "teams": [],
     "draftActions": []
+  },
+  "timer": {
+    "seq": -1,
+    "time": -9999
   }
 }
