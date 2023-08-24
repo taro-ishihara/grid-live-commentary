@@ -20,9 +20,9 @@ const Timeline = () => {
         <div className="absolute w-full h-full z-20">
           <div className="relative overflow-hidden pt-2 h-full">
             {grid.state.teams.map((team) => (
-              <div className="mb-2 border-y border-transparent">
+              <div key={team.id} className="mb-2 border-y border-transparent">
                 {team.players.map((player) => (
-                  <div className="flex items-center h-6">
+                  <div key={player.id} className="flex items-center h-6">
                     {grid.events
                       .filter(
                         (event) =>
@@ -39,6 +39,7 @@ const Timeline = () => {
                       .filter((event) => event.actor.id === player.id)
                       .map((event) => (
                         <div
+                          key={event.id}
                           className="absolute w-36 h-4 rounded-xl flex items-center justify-center bg-violet-700 shadow-lg z-20 text-white text-sm font-bold font-mono"
                           style={{
                             marginLeft:

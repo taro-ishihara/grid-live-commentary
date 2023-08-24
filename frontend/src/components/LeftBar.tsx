@@ -13,17 +13,23 @@ function formatTime(seconds: number): string {
   return `${formattedMinutes}:${formattedSeconds}`
 }
 
-const SideBar = () => {
+const LeftBar = () => {
   const grid = useGrid()
   return (
-    <div className="flex flex-col min-w-[280px] h-auto bg-slate-800">
+    <div className="flex flex-col min-w-[320px] bg-slate-800">
       <div className="flex justify-between text-white mx-4 my-2">
-        <div>Round {grid.state.timer.seq}</div>
-        <div>{formatTime(grid.state.timer.time)}</div>
+        <div>
+          {grid.state.timer.seq === -1 ? '' : `Round ${grid.state.timer.seq}`}
+        </div>
+        <div>
+          {grid.state.timer.time === -9999
+            ? 'Ongoing game not detected'
+            : formatTime(grid.state.timer.time)}
+        </div>
       </div>
       {grid.state.ongoingGame
         ? grid.state.ongoingGame.teams.map((team) => (
-            <div className="">
+            <div key={team.id}>
               <div className="bg-slate-200 grid grid-cols-4 divide-x divide-slate-500 border-b-2 border-slate-600">
                 <div className="flex col-span-2 justify-center items-center font-bold text-sm truncate">
                   {team.name}
@@ -39,9 +45,8 @@ const SideBar = () => {
                   {team.kills}
                 </div>
               </div>
-
               {team.players.map((player) => (
-                <PlayerCard {...player} />
+                <PlayerCard key={player.id} {...player} />
               ))}
             </div>
           ))
@@ -53,4 +58,4 @@ const SideBar = () => {
   )
 }
 
-export { SideBar }
+export { LeftBar }

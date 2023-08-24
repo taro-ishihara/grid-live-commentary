@@ -9,6 +9,7 @@ const Background = () => {
     <div>
       {grid.state.teams.map((team, index) => (
         <div
+          key={team.id}
           className={`${
             xor(!Boolean(index), reverse) ? 'bg-indigo-100' : 'bg-rose-100'
           } my-2 divide-y divide-slate-400 border border-l-0 border-slate-500`}

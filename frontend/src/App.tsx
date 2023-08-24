@@ -2,10 +2,9 @@ import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Timeline } from './components/timeline/Timeline'
-import { SideBar } from './components/SideBar'
-import { DataPane } from './components/DataPane'
+import { LeftBar } from './components/LeftBar'
+import { RightBar } from './components/RightBar'
 import { Header } from './components/Header'
-import { Minimap } from './components/Minimap'
 
 const user = {
   name: 'Tom Cook',
@@ -33,7 +32,7 @@ function classNames(...classes: any) {
 export default function App() {
   return (
     <>
-      <div className="min-h-full">
+      <div>
         <Disclosure as="nav" className="bg-slate-800">
           {({ open }) => (
             <>
@@ -208,26 +207,15 @@ export default function App() {
         <Header />
         <main>
           <div className="flex mx-auto bg-white">
-            {/* Your content */}
-            <SideBar />
-            <div className="w-full">
-              {/* right contents field */}
-              <div className="flex justify-end">
-                <div className="flex justify-center w-full">
-                  <img
-                    className="w-full p-2 "
-                    src="https://gist.githubusercontent.com/pigeonflight/80cb4f51e9bd538b82b3895ad60a38d0/raw/7d4726abfcce7ad4d23763e6a8c942077d603789/video-placeholder.svg"
-                  ></img>
-                </div>
-                <DataPane />
-              </div>
-              <div className="flex justify-between">
-                <Timeline />
-                <div className="w-[280px]">
-                  <Minimap />
-                </div>
-              </div>
+            <LeftBar />
+            <div className="flex flex-col w-full">
+              <img
+                className="max-h-[70vh] p-2"
+                src="https://gist.githubusercontent.com/pigeonflight/80cb4f51e9bd538b82b3895ad60a38d0/raw/7d4726abfcce7ad4d23763e6a8c942077d603789/video-placeholder.svg"
+              ></img>
+              <Timeline />
             </div>
+            <RightBar />
           </div>
           <div className="bg-neutral-700 pb-24 text-white text-xs text-center">
             C 2023 GRID DataJam Hackathon Team

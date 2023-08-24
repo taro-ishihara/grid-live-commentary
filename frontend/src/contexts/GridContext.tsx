@@ -26,10 +26,8 @@ const GridProvider = ({ children }: { children: ReactNode }) => {
       const response = JSON.parse(message.data)
       response.events.map((event: Event) => {
         const games = 'seriesState' in event ? event.seriesState.games : []
-        const ongoingGames = games.filter(
-          (game) => game.started && !game.finished,
-        )
-        const ongoingGame = ongoingGames.length > 0 && ongoingGames[0]
+        // const ongoingGames = games.filter((game) => game.started)
+        const ongoingGame = games.length > 0 && games.slice(-1)[0]
         const timer = ongoingGame
           ? {
               seq: ongoingGame.sequenceNumber,
@@ -43,7 +41,7 @@ const GridProvider = ({ children }: { children: ReactNode }) => {
         }
         'seriesState' in event ? setState(state) : null
         event.seriesState = state
-        setEvents((prevEvents) => [...prevEvents.slice(-200), event])
+        setEvents((prevEvents) => [...prevEvents.slice(-1000), event])
       })
     }
     ws.onclose = () => {
